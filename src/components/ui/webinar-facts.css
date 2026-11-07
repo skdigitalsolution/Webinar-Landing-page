@@ -1,0 +1,8 @@
+.webinar-facts { display: grid; grid-template-columns: 1.3fr 1.2fr 1fr .6fr; border-block: 1px solid var(--border-subtle); padding-block: var(--space-8); gap: var(--space-6); }
+.webinar-facts > div { display: flex; align-items: center; gap: var(--space-4); min-width: 0; }
+.webinar-facts svg { color: var(--accent-gold); }
+.webinar-facts p { display: grid; gap: var(--space-2); }
+.webinar-facts p > span:first-child { color: var(--text-secondary); font-size: .5625rem; letter-spacing: .16em; }
+.webinar-facts time, .webinar-facts .event-value { font-size: .8125rem; font-weight: 500; }
+@media (max-width: 1099px) { .webinar-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: var(--space-8); } }
+@media (max-width: 479px) { .webinar-facts { grid-template-columns: 1fr; gap: var(--space-6); } }

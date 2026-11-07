@@ -1,0 +1,7 @@
+import Container from '../ui/Container.jsx'
+import SectionHeading from '../ui/SectionHeading.jsx'
+import { lifeDimensions, lifeConnections } from '../../data/lifeDimensions.js'
+
+export default function LifeConnections() {
+  return <section className="circle-page-section life-connections" aria-labelledby="connections-title"><Container className="connections-grid"><div data-circle-reveal><SectionHeading eyebrow="THE BIGGER PICTURE" id="connections-title" title={<>Different dimensions.<br /><span className="gradient-text">A connected life.</span></>} description="The boundaries between these areas are not always neat. Use these connections as prompts to reflect on your own experience, rather than rules about how life should work." /><div className="connections-notes">{lifeConnections.map(connection => <div key={connection.title}><h3>{connection.title}</h3><p className="body-copy">{connection.text}</p></div>)}</div></div><div className="connections-diagram" data-circle-reveal><svg viewBox="0 0 420 420" aria-hidden="true"><circle cx="210" cy="210" r="143" /><path d="M210 67L353 210L210 353L67 210Z" /><path d="M210 67V353M67 210H353" /></svg><div className="connections-center"><span className="eyebrow">YOUR LIFE</span><strong>Everyday<br />choices</strong></div>{lifeDimensions.map((dimension, index) => <span className={`connection-label connection-label--${index}`} key={dimension.id} style={{ '--dimension-color': dimension.color }}><i aria-hidden="true" />{dimension.name}</span>)}</div></Container></section>
+}

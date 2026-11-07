@@ -1,0 +1,159 @@
+.benefits-section { padding-block: clamp(3.5rem, 7vw, 6rem); }
+.benefits-hero { padding-block: clamp(2rem, 5vw, 4rem) clamp(3rem, 6vw, 5rem); }
+.benefits-hero-grid { display: grid; grid-template-columns: 1.1fr 1fr; align-items: center; gap: clamp(2rem, 4vw, 4rem); }
+.benefits-hero-copy { padding-block: var(--space-8); min-width: 0; }
+.benefits-hero-copy .badge { font-size: .625rem; letter-spacing: .12em; padding: .4rem .85rem; }
+.benefits-hero-copy .heading-display { font-size: clamp(2.7rem, 4.5vw, 4.1rem); line-height: 1.18; max-width: 16ch; margin-block: var(--space-6); }
+.benefits-hero-copy .body-lead { font-size: .9375rem; line-height: 1.9; max-width: 50ch; }
+.benefits-hero-actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-block: var(--space-8) var(--space-6); }
+.benefits-hero-actions .button { min-height: 50px; padding-inline: 1rem; font-size: .75rem; }
+.benefits-hero-copy > .small-copy { max-width: 64ch; font-size: .6875rem; }
+.benefits-hero-art { position: relative; aspect-ratio: 1; width: 100%; min-width: 0; isolation: isolate; background: radial-gradient(ellipse, rgb(136 85 255 / 12%), transparent 68%); }
+.benefits-art-orbit { position: absolute; inset: 9%; border: 1px solid rgb(136 85 255 / 20%); border-radius: 50%; box-shadow: 0 0 35px rgb(56 221 245 / 3%); transform: rotate(-15deg) scaleY(.85); }
+.benefits-art-particle { width: 3px; height: 3px; position: absolute; background: var(--accent-cyan); border-radius: 50%; top: 20%; left: 10%; opacity: .5; }
+.benefits-art-particle:nth-of-type(3) { top: 40%; left: 89%; background: var(--accent-gold); }
+.benefits-art-particle:nth-of-type(4) { top: 85%; left: 65%; background: var(--accent-violet); }
+.benefits-hero-book { position: absolute; width: 43%; height: 65%; }
+.benefits-hero-book--back { top: 12%; right: 7%; transform: rotate(12deg); --book-delay: -2s; }
+.benefits-hero-book--front { top: 23%; left: 13%; transform: rotate(-9deg); }
+.benefits-hero-book .book-float { height: 100%; }
+.benefits-hero-book .book-object { height: 100%; width: auto; max-width: 100%; }
+.benefits-art-note.glass-card { position: absolute; bottom: 3%; right: 1%; display: flex; align-items: center; gap: var(--space-3); padding: .85rem 1rem; border-radius: var(--radius-md); background: rgb(16 17 43 / 95%); font-size: .75rem; line-height: 1.8; }
+.benefits-art-note svg { color: var(--accent-gold); }
+.benefits-art-note small { display: block; color: var(--text-secondary); font-size: .625rem; }
+.book-showcase { border-top: 1px solid var(--border-subtle); scroll-margin-top: 1rem; }
+.book-showcase .section-heading .body-copy { font-size: .875rem; }
+.bonus-condition-note { color: var(--text-secondary); border-left: 1px solid var(--accent-gold); padding-left: var(--space-4); font-size: .75rem; line-height: 1.9; max-width: 85ch; margin-top: var(--space-6); }
+.bonus-book-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-4); margin-top: var(--space-12); }
+.bonus-book-card.glass-card { padding: var(--space-6); min-width: 0; }
+.bonus-book-card figure { margin: 0 0 var(--space-6); }
+.book-float { display: grid; place-items: center; animation: benefit-book-float 8s ease-in-out infinite alternate; animation-delay: var(--book-delay, 0s); }
+.book-object { position: relative; width: min(80%, 175px); aspect-ratio: .7; transform-style: preserve-3d; transform: perspective(900px) rotateY(-17deg) rotateX(5deg); transition: transform 500ms var(--ease-standard); }
+.book-front { position: absolute; inset: 0; border: 1px solid color-mix(in srgb, var(--book-color) 45%, transparent); border-radius: 3px 7px 7px 3px; background: radial-gradient(ellipse at 30% 10%, color-mix(in srgb, var(--book-color) 15%, transparent), transparent 60%), var(--book-cover); box-shadow: inset 5px 0 7px rgb(0 0 0 / 30%), inset -1px 0 0 rgb(255 255 255 / 9%), 10px 16px 24px rgb(0 0 0 / 30%); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 12%; backface-visibility: hidden; }
+.book-front::before { content: ''; position: absolute; inset: 7%; border: 1px solid rgb(214 180 106 / 30%); border-radius: 1px; pointer-events: none; }
+.book-front::after { content: ''; position: absolute; top: 0; bottom: 0; left: 5%; width: 1px; background: rgb(0 0 0 / 20%); pointer-events: none; }
+.book-front img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: inherit; }
+.book-pages { position: absolute; top: 2%; bottom: 2%; right: -9px; width: 13px; transform: rotateY(16deg); border-radius: 0 3px 3px 0; background: repeating-linear-gradient(to bottom, #c7bfaa 0 1px, #817b70 1px 2px); box-shadow: 3px 2px 9px rgb(0 0 0 / 20%); }
+.book-cover-brand { color: #e9d29e; font-family: var(--font-heading); font-weight: 500; font-size: .55rem; letter-spacing: .16em; }
+.book-cover-line { height: 1px; width: 25%; background: #d6b46a70; margin-top: 10%; }
+.book-cover-symbol { width: 30%; height: auto; color: var(--book-color); margin-block: 15% 9%; opacity: .85; }
+.book-cover-title { font-family: var(--font-heading); font-size: clamp(.9375rem, 1.5vw, 1.25rem); line-height: 1.35; color: #e7cd92; font-weight: 500; letter-spacing: -.04em; }
+.book-cover-label { font-size: .375rem; letter-spacing: .1em; color: #e4d4b1; margin-top: 18%; line-height: 1.8; }
+.bonus-book-card figcaption { text-align: center; margin-top: var(--space-6); font-size: .5625rem; color: var(--text-secondary); line-height: 1.8; }
+.bonus-book-card .heading-card { font-size: 1.125rem; margin-bottom: var(--space-3); }
+.bonus-book-card .body-copy { font-size: .8125rem; line-height: 1.85; }
+.book-illustration-disclaimer { font-size: .6875rem; margin-top: var(--space-6); max-width: 110ch; }
+.benefit-resource-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(2rem, 7vw, 7rem); }
+.benefit-resource-grid .section-heading .body-copy { font-size: .875rem; }
+.whatsapp-learning { padding-top: 0; }
+.learning-day-plan { margin-top: var(--space-8); }
+.learning-day-plan > .eyebrow { font-size: .5625rem; }
+.learning-day-plan ol { list-style: none; display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: .4rem; padding: 0; margin: var(--space-4) 0; }
+.learning-day-plan li { display: grid; place-items: center; aspect-ratio: 1; border: 1px solid var(--border-subtle); border-radius: 5px; background: rgb(136 85 255 / 3%); color: var(--text-secondary); font-size: .625rem; }
+.learning-day-plan li:nth-child(5n) { border-color: rgb(56 221 245 / 25%); color: #9be6ee; }
+.learning-day-plan > .small-copy { font-size: .6875rem; }
+.sample-phone-composition { display: grid; justify-items: center; min-width: 0; padding-block: var(--space-4); }
+.sample-phone { position: relative; width: min(100%, 335px); border: 1px solid #55516c; border-radius: 36px; padding: var(--space-12) var(--space-6) var(--space-6); background: linear-gradient(150deg, #171932, #0b0c20); box-shadow: inset 0 0 0 5px #070817, 0 25px 60px rgb(0 0 0 / 20%), 0 0 70px rgb(136 85 255 / 6%); }
+.phone-camera { position: absolute; top: 17px; left: 50%; transform: translateX(-50%); width: 65px; height: 13px; border-radius: var(--radius-pill); background: #070817; border: 1px solid var(--border-subtle); }
+.sample-phone-header { display: flex; align-items: center; gap: var(--space-3); font-family: var(--font-heading); font-size: .8125rem; font-weight: 500; padding-block: var(--space-3) var(--space-6); }
+.sample-phone-header svg { color: var(--accent-cyan); }
+.sample-phone > .badge { font-size: .5rem; letter-spacing: .06em; }
+.phone-sample-card { border: 1px solid color-mix(in srgb, var(--dimension-color) 30%, transparent); border-radius: var(--radius-lg); padding: var(--space-6); margin-top: var(--space-6); min-height: 238px; background: rgb(136 85 255 / 5%); }
+.phone-sample-card svg { color: var(--dimension-color); margin-bottom: var(--space-4); }
+.phone-sample-card h3 { font-family: var(--font-heading); font-size: .875rem; font-weight: 500; color: var(--dimension-color); margin-bottom: var(--space-3); }
+.phone-sample-card p { font-size: .8125rem; line-height: 1.9; }
+.phone-category-controls { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2); margin-top: var(--space-6); }
+.phone-category-controls button { min-height: 44px; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); background: var(--bg-secondary); color: var(--text-secondary); font-size: .625rem; padding: .5rem .3rem; line-height: 1.6; cursor: pointer; transition: border-color var(--duration-normal), color var(--duration-normal); }
+.phone-category-controls button[aria-pressed='true'] { color: var(--text-primary); border-color: var(--dimension-color); }
+.sample-phone > .small-copy { font-size: .625rem; margin-top: var(--space-4); }
+.phone-preview-caption { margin-top: var(--space-4); max-width: 38ch; text-align: center; font-size: .625rem; }
+.telegram-community { border-block: 1px solid var(--border-subtle); background: linear-gradient(110deg, rgb(16 17 43 / 35%), transparent); }
+.community-concept.glass-card { padding: var(--space-8); text-align: center; background: radial-gradient(ellipse at 50% 30%, rgb(56 221 245 / 5%), transparent 60%), var(--glass-background); }
+.community-concept-art { position: relative; min-height: 280px; display: grid; place-items: center; }
+.community-orbit { width: 72%; aspect-ratio: 1; border: 1px solid rgb(56 221 245 / 18%); border-radius: 50%; position: absolute; box-shadow: 0 0 50px rgb(56 221 245 / 3%); }
+.community-symbol { display: grid; place-items: center; width: 105px; height: 105px; border: 1px solid rgb(56 221 245 / 35%); border-radius: 50%; color: var(--accent-cyan); background: linear-gradient(130deg, #1c334d, #13172f); box-shadow: 0 0 45px rgb(56 221 245 / 6%); }
+.community-floating-label { position: absolute; display: inline-flex; gap: .5rem; align-items: center; padding: .6rem .8rem; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); background: var(--bg-secondary); font-size: .625rem; color: var(--text-secondary); animation: benefit-label-float 9s ease-in-out infinite alternate; }
+.community-floating-label svg { color: var(--accent-cyan); }
+.community-floating-label--0 { top: 17%; right: 0; }
+.community-floating-label--1 { bottom: 19%; left: 0; animation-delay: -3s; }
+.community-floating-label--2 { bottom: 10%; right: 5%; animation-delay: -5s; }
+.community-concept .heading-card { font-size: 1.25rem; margin-top: var(--space-3); }
+.community-concept > .small-copy { margin-top: var(--space-3); font-size: .625rem; }
+.telegram-community .bonus-condition-note { margin-bottom: var(--space-6); }
+.circle-activity-steps { display: grid; gap: var(--space-6); margin: var(--space-8) 0; padding: 0; list-style: none; }
+.circle-activity-steps li { display: flex; gap: var(--space-4); color: var(--text-secondary); font-size: .8125rem; line-height: 1.85; }
+.circle-activity-steps span { color: var(--accent-gold); font-family: var(--font-heading); font-size: .625rem; padding-top: .2rem; }
+.circle-activity .button { font-size: .75rem; }
+.activity-note { font-size: .6875rem; margin-top: var(--space-4); }
+.benefit-activity-visual { min-width: 0; }
+.benefits-overview { padding-top: 0; }
+.benefits-overview .section-heading .body-copy { font-size: .875rem; }
+.benefits-overview-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-6); margin-top: var(--space-12); }
+.benefit-group-card.glass-card { display: flex; flex-direction: column; align-items: start; gap: var(--space-6); padding: var(--space-8); }
+.benefit-group-card .heading-card { font-size: 1.25rem; }
+.benefit-group-card .badge { font-size: .5625rem; }
+.benefit-group-card ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-3); }
+.benefit-group-card li { font-size: .8125rem; line-height: 1.85; position: relative; padding-left: 1rem; }
+.benefit-group-card li::before { position: absolute; content: ''; left: 0; top: .65em; width: 4px; height: 4px; border-radius: 50%; background: var(--accent-gold); }
+.benefit-group-card > .small-copy { margin-top: auto; padding-top: var(--space-4); border-top: 1px solid var(--border-subtle); font-size: .6875rem; }
+.benefits-inclusions-note { margin-top: var(--space-6); max-width: 100ch; font-size: .6875rem; }
+.benefits-webinar { padding-top: 0; }
+.benefits-webinar-panel.glass-card { padding: clamp(1.5rem, 5vw, 4rem); display: grid; justify-items: center; text-align: center; gap: var(--space-6); background: radial-gradient(ellipse at 50% 0, rgb(136 85 255 / 12%), transparent 65%), var(--glass-background); }
+.benefits-webinar-panel .section-heading .body-copy { font-size: .9375rem; }
+.benefits-webinar-panel .webinar-facts { width: 100%; text-align: left; margin-block: var(--space-4) 0; }
+.benefits-webinar-panel > .small-copy { font-size: .6875rem; }
+@keyframes benefit-book-float { from { transform: translateY(-3px); } to { transform: translateY(5px); } }
+@keyframes benefit-label-float { from { transform: translateY(-3px); } to { transform: translateY(5px); } }
+@media (hover: hover) { .bonus-book-card:hover .book-object { transform: perspective(900px) rotateY(-6deg) rotateX(2deg) translateY(-3px); } }
+@media (max-width: 1099px) {
+  .benefits-hero-grid { gap: var(--space-6); }
+  .benefits-hero-copy .heading-display { font-size: clamp(2.5rem, 4.8vw, 3.6rem); }
+  .bonus-book-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-6); }
+  .benefit-resource-grid { gap: var(--space-8); }
+  .benefits-art-note.glass-card { font-size: .625rem; padding: .65rem .75rem; gap: .5rem; }
+  .benefits-art-note small { font-size: .5625rem; }
+  .benefits-hero-book .book-cover-brand { font-size: .4rem; }
+  .benefits-hero-book .book-cover-title { font-size: .875rem; }
+  .benefits-hero-book .book-cover-label { font-size: .3rem; }
+  .benefit-group-card.glass-card { padding: var(--space-6); }
+  .benefits-overview-grid { gap: var(--space-4); }
+  .learning-day-plan ol { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .community-concept.glass-card { padding: var(--space-6); }
+  .community-concept-art { min-height: 250px; }
+}
+@media (max-width: 767px) {
+  .benefits-hero-grid, .benefit-resource-grid, .benefits-overview-grid { grid-template-columns: 1fr; }
+  .benefits-hero-copy { padding-bottom: 0; }
+  .benefits-hero-copy .heading-display { font-size: clamp(2.5rem, 8.5vw, 3.5rem); max-width: 17ch; }
+  .benefits-hero-actions .button { flex: 1 1 180px; }
+  .benefits-hero-art { max-width: 460px; margin-inline: auto; }
+  .benefits-hero-book .book-cover-title { font-size: 1.125rem; }
+  .benefits-hero-book .book-cover-label { font-size: .375rem; }
+  .benefits-hero-book .book-cover-brand { font-size: .5rem; }
+  .benefits-section { padding-block: var(--space-12); }
+  .bonus-book-grid { grid-template-columns: 1fr; }
+  .whatsapp-learning, .benefits-overview, .benefits-webinar { padding-top: 0; }
+  .learning-day-plan ol { grid-template-columns: repeat(10, minmax(0, 1fr)); }
+  .community-concept { max-width: 520px; width: 100%; margin-inline: auto; }
+  .benefits-overview-grid { gap: var(--space-6); margin-top: var(--space-8); }
+  .benefit-activity-visual { max-width: 520px; width: 100%; margin-inline: auto; }
+}
+@media (max-width: 479px) {
+  .benefits-hero-copy .badge { font-size: .5625rem; letter-spacing: .08em; }
+  .benefits-hero-copy .heading-display { font-size: clamp(2.3rem, 9vw, 2.9rem); }
+  .bonus-book-grid { grid-template-columns: 1fr; margin-top: var(--space-8); }
+  .bonus-book-card.glass-card { padding: var(--space-8); }
+  .book-object { width: min(70%, 180px); }
+  .benefits-hero-book .book-cover-title { font-size: .875rem; }
+  .benefits-hero-book .book-cover-label { font-size: .3rem; }
+  .learning-day-plan ol { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .sample-phone { padding-inline: var(--space-6); }
+  .phone-sample-card { padding: var(--space-4); min-height: 245px; }
+  .community-concept-art { min-height: 240px; }
+  .community-floating-label { padding-inline: .6rem; font-size: .5625rem; }
+  .benefit-group-card.glass-card { padding: var(--space-6); }
+  .circle-activity .button, .benefits-webinar-panel .button { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .benefits-page .bonus-book-card:hover .book-object { transform: perspective(900px) rotateY(-17deg) rotateX(5deg); }
+}
