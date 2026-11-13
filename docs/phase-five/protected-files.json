@@ -1,0 +1,18 @@
+{
+  "src/components/hero/PhaseOneHero.jsx": "a28de428f32ac7dcac8b5f1aea132bc0644e5bc0b199bd18d68c399723e08df9",
+  "src/components/hero/phase-one.css": "030d244fb07fc03684ff62989a36b66eb7146a1df72e26e0214a17900f2f5a05",
+  "src/components/hero/CircleOfLife3D.jsx": "a1a2267b49e83f56a6c4893aa58b660ce8af7f7fe85004db986248674837c045",
+  "src/components/rapport/RapportSections.jsx": "68b44c21e04e029418a525a9142f83a2dff8b77a361502e73f962bb0eb9e732f",
+  "src/components/media/PremiumVideo.jsx": "77ec4f2bd9e3370820e30ff6d65c7d14f461e7e7fd117f06c6e87b2f56d1e44c",
+  "src/pages/Assessment.jsx": "65dd528244881f4ea876bf936bf47ab08f7973cc48c531d1aac99664e38e6c2d",
+  "src/context/ReflectionContext.jsx": "e0f9346ce313aaf58263a07990604a03936d1b85dcbdd8e8b314855a222e1c07",
+  "src/components/landing/FourPillarsSection.jsx": "eff5a6f9d08738fe4d75fe00705279eb129a524a636456b38541f7dad7ba2af0",
+  "src/components/landing/FutureReflectionSection.jsx": "16d8af23473a1feb0512b9f500a814deaa465f7f7a4a7b929057375ffec99863",
+  "src/components/landing/VailyfSolutionSection.jsx": "45bb5c9bc0fdf0dabbd9bdb6dd42d7d15e4de30dd704ca2e3297ebd576441888",
+  "src/components/landing/PersonalNextStepPreview.jsx": "0746391ad172dea1e5adb4791b04037aeedeea5a4508a1754be8ee88a3d69f96",
+  "src/utils/assessmentCalculations.js": "0c0b751538ec41b05c7bb81b47ec6b0aeeea5df099cbbb423dfa14fb7309e513",
+  "src/pages/Register.jsx": "418205fbd00906e96a0d40f574c4c03a540ce3cc9363a0fd6005fe29f8c75e71",
+  "src/components/registration/RegistrationForm.jsx": "ac399d70c4567ac1baf31133c5ecd245c157b3142e8186dfa39e38fc7be9987b",
+  "src/data/registration.js": "bb376f5b439dbc1042b16c9612ab9d2d609ed3344aa3bd667e8cc91325c49027",
+  "src/data/webinar.js": "30d7bce793f9daed49b02d5411357bc62902ef743ad014ce7d34da4fa7030e4a"
+}

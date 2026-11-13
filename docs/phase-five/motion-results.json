@@ -1,0 +1,17 @@
+{
+  "timelineBefore": "matrix(1, 0, 0, 0.0235, 0, 0)",
+  "timelineAfter": "matrix(1, 0, 0, 0.565, 0, 0)",
+  "timelineReveals": true,
+  "bookAnimation": {
+    "name": "benefit-book-float",
+    "state": "running"
+  },
+  "bookHover": {
+    "before": "matrix3d(0.956305, 0, 0.292372, -0.000324857, -0.0254819, 0.996195, 0.0833475, -9.26083e-05, -0.291259, -0.0871557, 0.952666, -0.00105852, 0, 0, 0, 1)",
+    "after": "matrix3d(0.994522, 0, 0.104528, -0.000116143, -0.00364799, 0.999391, 0.0347083, -3.85648e-05, -0.104465, -0.0348995, 0.993916, -0.00110435, 0.010944, -2.99817, -0.104125, 1.00012)"
+  },
+  "messageReveal": true,
+  "dayMarkersReveal": true,
+  "communityAnimation": "benefit-label-float",
+  "errors": []
+}

@@ -157,3 +157,183 @@
 @media (prefers-reduced-motion: reduce) {
   .benefits-page .bonus-book-card:hover .book-object { transform: perspective(900px) rotateY(-17deg) rotateX(5deg); }
 }
+
+.telegram-community { position: relative; isolation: isolate; }
+.telegram-community::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 18% 52%, rgb(136 85 255 / 11%), transparent 48%), radial-gradient(ellipse at 82% 45%, rgb(56 221 245 / 7%), transparent 48%);
+  animation: telegram-ambient-drift 20s ease-in-out infinite alternate;
+}
+.telegram-community .benefit-resource-grid {
+  grid-template-columns: minmax(0, .96fr) minmax(0, 1.04fr);
+  align-items: stretch;
+  gap: clamp(32px, 5vw, 72px);
+}
+.telegram-community .community-concept.glass-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: clamp(480px, 36vw, 540px);
+  padding: clamp(24px, 3vw, 40px);
+  overflow: hidden;
+  border: 1px solid rgb(136 85 255 / 24%);
+  text-align: center;
+  background: radial-gradient(ellipse at 50% 20%, rgb(54 109 135 / 25%), transparent 75%), #13182c;
+  transition: translate 280ms var(--ease-standard), box-shadow 280ms var(--ease-standard);
+}
+.telegram-community .community-concept.glass-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  padding: 1px;
+  border-radius: inherit;
+  pointer-events: none;
+  background: conic-gradient(from 0deg, transparent 0 18%, rgb(56 221 245 / 75%) 25%, rgb(136 85 255 / 65%) 38%, transparent 48% 68%, rgb(56 221 245 / 55%) 78%, transparent 88%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  opacity: .55;
+  animation: telegram-border-shimmer 12s linear infinite;
+}
+.telegram-community .community-concept > * { position: relative; z-index: 1; }
+.telegram-community .community-concept-art {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.25;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+.telegram-community .community-orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  aspect-ratio: 1;
+  border: 1px solid rgb(56 221 245 / 25%);
+  border-radius: 50%;
+  box-shadow: 0 0 34px rgb(56 221 245 / 7%), inset 0 0 20px rgb(136 85 255 / 5%);
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.telegram-community .community-orbit-rotator {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  animation: telegram-orbit 30s linear infinite;
+}
+.telegram-community .community-orbit-rotator::before,
+.telegram-community .community-orbit-rotator::after {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #8deafa;
+  box-shadow: 0 0 12px rgb(56 221 245 / 75%);
+}
+.telegram-community .community-orbit-rotator::before { top: 12%; right: 12%; }
+.telegram-community .community-orbit-rotator::after { bottom: 18%; left: 5%; background: #b89aff; box-shadow: 0 0 12px rgb(136 85 255 / 75%); }
+.telegram-community .community-symbol {
+  position: relative;
+  z-index: 1;
+  width: clamp(88px, 8vw, 105px);
+  height: auto;
+  aspect-ratio: 1;
+  animation: telegram-symbol-breathe 3.6s ease-in-out infinite alternate;
+}
+.telegram-community .community-symbol::before {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border: 1px solid rgb(56 221 245 / 18%);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgb(136 85 255 / 14%), 0 0 24px rgb(56 221 245 / 10%);
+  pointer-events: none;
+  opacity: .35;
+  animation: telegram-symbol-glow 3.6s ease-in-out infinite alternate;
+}
+.telegram-community .community-icon {
+  display: grid;
+  place-items: center;
+  animation: telegram-icon-float 4s ease-in-out infinite alternate;
+}
+.telegram-community .community-floating-label {
+  z-index: 2;
+  max-width: 46%;
+  padding: .55rem .7rem;
+  font-size: .625rem;
+  line-height: 1.3;
+  white-space: nowrap;
+  animation: telegram-label-float var(--telegram-float-duration, 4s) ease-in-out var(--telegram-float-delay, 0s) infinite alternate;
+}
+.telegram-community .community-floating-label--0 { top: 7%; right: auto; left: 2%; --telegram-float-duration: 4s; --telegram-float-delay: -.8s; }
+.telegram-community .community-floating-label--1 { top: 7%; right: 2%; bottom: auto; left: auto; --telegram-float-duration: 5s; --telegram-float-delay: -2s; }
+.telegram-community .community-floating-label--2 { right: 2%; bottom: 7%; left: auto; --telegram-float-duration: 4.5s; --telegram-float-delay: -1.3s; }
+.telegram-community .community-concept .heading-card { margin-top: 12px; }
+.telegram-community .community-concept > .small-copy { margin-top: 8px; line-height: 1.65; }
+.telegram-community-copy { align-self: center; min-width: 0; padding-block: 16px; }
+.telegram-community .section-heading { gap: var(--space-3); }
+.telegram-community .section-heading .heading-section { max-width: 19ch; }
+.telegram-community .section-heading .body-copy { max-width: 54ch; line-height: 1.8; }
+.telegram-community .bonus-condition-note { margin-block: 24px; }
+.telegram-community-status { width: fit-content; }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .telegram-community .community-concept.glass-card:hover {
+    translate: 0 -4px;
+    box-shadow: 0 20px 52px rgb(0 0 0 / 24%), 0 0 28px rgb(136 85 255 / 13%), 0 0 18px rgb(56 221 245 / 9%);
+  }
+}
+@media (max-width: 899px) {
+  .telegram-community .benefit-resource-grid { grid-template-columns: minmax(0, 1fr); gap: var(--space-8); }
+  .telegram-community .community-concept.glass-card { width: min(100%, 560px); min-height: 0; justify-self: center; }
+  .telegram-community-copy { width: min(100%, 680px); justify-self: center; }
+}
+@media (max-width: 767px) {
+  .telegram-community .community-concept.glass-card { padding: 24px clamp(20px, 6vw, 32px); }
+  .telegram-community .community-concept-art { aspect-ratio: 1.15; }
+  .telegram-community .community-orbit { width: 78%; }
+}
+@keyframes telegram-orbit {
+  to { transform: rotate(360deg); }
+}
+@keyframes telegram-symbol-breathe {
+  to { transform: scale(1.04); box-shadow: 0 0 50px rgb(56 221 245 / 12%), inset 0 0 28px rgb(56 221 245 / 10%); }
+}
+@keyframes telegram-icon-float {
+  to { transform: translateY(-7px) rotate(2deg); }
+}
+@keyframes telegram-label-float {
+  to { transform: translateY(-5px); }
+}
+@keyframes telegram-border-shimmer {
+  to { transform: rotate(360deg); }
+}
+@keyframes telegram-ambient-drift {
+  to { opacity: 1; }
+}
+@keyframes telegram-symbol-glow {
+  to { opacity: .65; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .telegram-community::before,
+  .telegram-community .community-concept.glass-card,
+  .telegram-community .community-concept.glass-card::before,
+  .telegram-community .community-orbit-rotator,
+  .telegram-community .community-symbol,
+  .telegram-community .community-symbol::before,
+  .telegram-community .community-icon,
+  .telegram-community .community-floating-label {
+    animation: none !important;
+    transition: none !important;
+  }
+}

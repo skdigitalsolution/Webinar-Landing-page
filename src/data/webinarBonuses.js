@@ -1,11 +1,11 @@
 import { lifeDimensions } from './lifeDimensions.js'
 
-// The Phase 8 brief describes these resources. No ticket inclusion or delivery
+// The Phase 5 brief describes these resources. No final ticket terms or delivery
 // condition is approved by this file. Replace null fields only after sign-off.
 export const bonusConditions = {
   ticketInclusionsApproved: false,
   books: { format: null, eligibility: null, delivery: null, coversApproved: false },
-  whatsapp: { days: 30, frequency: 'Daily', eligibility: null, deliveryStart: null, optInProcess: null, connected: false },
+  whatsapp: { days: 30, frequency: null, eligibility: null, deliveryStart: null, optInProcess: null, connected: false },
   telegram: { eligibility: null, accessPeriod: null, invitationUrl: null, connected: false },
   pendingConfirmations: [
     'Final inclusions and eligibility for the ₹199 ticket.',
@@ -18,7 +18,7 @@ export const bonusConditions = {
 
 export const books = [
   { id: 'circle-of-life', title: 'Circle of Life', description: 'A reflective view of Health, Wealth, Relationships and Spiritual Bliss.', color: '#AA8AEA', coverColor: '#332152', cover: null, coverApproved: false },
-  { id: 'health', title: 'Health', description: 'Themes of everyday wellness habits and personal priorities.', color: '#70D7D6', coverColor: '#123C43', cover: null, coverApproved: false },
+  { id: 'health', title: 'Health', description: 'Themes of everyday wellness habits and personal priorities.', color: '#70D7A3', coverColor: '#133D30', cover: null, coverApproved: false },
   { id: 'wealth', title: 'Wealth', description: 'Themes of financial direction, goals and everyday choices.', color: '#D6B46A', coverColor: '#443522', cover: null, coverApproved: false },
   { id: 'relationship', title: 'Relationship', description: 'Themes of communication, connection and meaningful relationships.', color: '#E0A2C0', coverColor: '#43273D', cover: null, coverApproved: false },
 ]
@@ -61,22 +61,22 @@ export const benefitsCopy = {
   },
   books: {
     eyebrow: 'PROPOSED REGISTRATION BONUS', title: 'Explore Four Essential Areas of Life.',
-    description: 'The organizer has mentioned four free books connected to the webinar’s learning themes.',
-    conditions: 'Delivery format and eligibility are pending confirmation. These books are not yet confirmed as inclusions for every ticket.',
+    description: 'The organizer has described four free books for webinar participants, exploring four essential areas of life.',
+    conditions: 'Delivery format, eligibility, timing and final terms are subject to confirmation.',
     placeholder: 'Illustrative cover · final artwork pending', coverLabel: 'ILLUSTRATIVE COVER',
     disclaimer: 'These hardcover-style visuals are illustrative placeholders. They do not represent final published covers or a promise of physical delivery.',
   },
   whatsapp: {
-    eyebrow: 'DESCRIBED FOLLOW-UP RESOURCE', title: 'Keep Learning, One Day at a Time.',
-    description: 'The organizer has described daily WhatsApp learning tips for 30 days, covering the four life dimensions.',
+    eyebrow: 'DESCRIBED FOLLOW-UP RESOURCE', title: 'Continue Learning After the Webinar.',
+    description: 'The organizer has mentioned 30 days of WhatsApp learning tips, covering the four life dimensions.',
     note: 'Availability, eligibility and delivery arrangements are pending confirmation. This preview is not connected to WhatsApp.',
     timelineLabel: 'An illustrative 30-day learning format', timelineNote: 'Day markers illustrate the proposed duration, not completed lessons or a confirmed delivery calendar.',
     sampleLabel: 'ILLUSTRATIVE SAMPLE TIP', phoneTitle: 'Learning, in small moments.',
     phoneNote: 'Sample educational content · not a live conversation', sampleHelp: 'Choose a category to preview a sample reflection prompt. No messages are sent.',
   },
   telegram: {
-    eyebrow: 'PROPOSED LEARNING GROUP', title: 'Stay Connected Beyond the Session.',
-    description: 'Access to a Telegram learning group is among the benefits described by the webinar organizer.',
+    eyebrow: 'PROPOSED LEARNING GROUP', title: 'Stay Connected With the Learning Community.',
+    description: 'The organizer has described proposed access to a Telegram group for staying connected with the webinar learning themes.',
     note: 'Group availability, access period and eligibility are pending confirmation.',
     status: 'Access details pending', visualTitle: 'A space for learning.', visualLabels: ['Reflection', 'Connection', 'Learning'],
     visualNote: 'Illustrative community concept · no invitation link supplied',

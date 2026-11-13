@@ -1,0 +1,250 @@
+{
+  "structure": {
+    "forms": 1,
+    "register": 1,
+    "faq": 1,
+    "final": 1,
+    "consent": false,
+    "paymentDisabled": true,
+    "paymentLabel": "Payment Setup Pending"
+  },
+  "ticket": {
+    "price": "₹199",
+    "date": "Sunday, 22 November 2026",
+    "details": "Sunday, 22 November 202611:00 AM – 1:00 PM ISTOnline via Zoom"
+  },
+  "emptyValidation": {
+    "errors": 4,
+    "focusFirst": true
+  },
+  "invalidFormatsRejected": true,
+  "summary": {
+    "total": "₹199",
+    "lines": "ProductCircle of Life WebinarTicket₹199Quantity1Total₹199",
+    "paymentDisabled": true,
+    "status": "Demo summary validated. No registration was created and payments remain unavailable.",
+    "containsContact": false
+  },
+  "previewInvalidatesOnEdit": true,
+  "realContactBlockedInDemo": true,
+  "clear": true,
+  "faq": [
+    "What is the Circle of Life webinar?",
+    "Who is this webinar for?",
+    "When is the webinar scheduled?",
+    "Is the webinar online?",
+    "What will participants learn?"
+  ],
+  "faqKeyboard": true,
+  "anchorAudit": [
+    {
+      "text": "Skip to content",
+      "hash": "#main-content",
+      "exists": true
+    },
+    {
+      "text": "VAILYF AILife · Clarity · Balance",
+      "hash": "#home",
+      "exists": true
+    },
+    {
+      "text": "About",
+      "hash": "#mentor",
+      "exists": true
+    },
+    {
+      "text": "Circle of Life",
+      "hash": "#circle-of-life",
+      "exists": true
+    },
+    {
+      "text": "Assessment",
+      "hash": "#assessment",
+      "exists": true
+    },
+    {
+      "text": "What You'll Learn",
+      "hash": "#learning",
+      "exists": true
+    },
+    {
+      "text": "Benefits",
+      "hash": "#benefits",
+      "exists": true
+    },
+    {
+      "text": "FAQ",
+      "hash": "#faq",
+      "exists": true
+    },
+    {
+      "text": "Register Now",
+      "hash": "#register",
+      "exists": true
+    },
+    {
+      "text": "Join the Webinar – ₹199",
+      "hash": "#register",
+      "exists": true
+    },
+    {
+      "text": "Join the Webinar – ₹199",
+      "hash": "#register",
+      "exists": true
+    },
+    {
+      "text": "Explore Your Circle of Life",
+      "hash": "#circle-of-life",
+      "exists": true
+    },
+    {
+      "text": "Discover the VAILYF AI Approach",
+      "hash": "#solution",
+      "exists": true
+    },
+    {
+      "text": "Try the Reflection Template",
+      "hash": "#next-step",
+      "exists": true
+    },
+    {
+      "text": "Explore What You'll Learn",
+      "hash": "#learning",
+      "exists": true
+    },
+    {
+      "text": "Reserve Your Place – ₹199",
+      "hash": "#register",
+      "exists": true
+    },
+    {
+      "text": "Register Now – ₹199",
+      "hash": "#register",
+      "exists": true
+    },
+    {
+      "text": "VAILYF AI",
+      "hash": "#home",
+      "exists": true
+    },
+    {
+      "text": "About",
+      "hash": "#mentor",
+      "exists": true
+    },
+    {
+      "text": "Circle of Life",
+      "hash": "#circle-of-life",
+      "exists": true
+    },
+    {
+      "text": "Assessment",
+      "hash": "#assessment",
+      "exists": true
+    },
+    {
+      "text": "What You'll Learn",
+      "hash": "#learning",
+      "exists": true
+    },
+    {
+      "text": "Benefits",
+      "hash": "#benefits",
+      "exists": true
+    },
+    {
+      "text": "FAQ",
+      "hash": "#faq",
+      "exists": true
+    },
+    {
+      "text": "Registration",
+      "hash": "#register",
+      "exists": true
+    }
+  ],
+  "registrationLinks": [
+    {
+      "text": "Register Now",
+      "target": "#register"
+    },
+    {
+      "text": "Join the Webinar – ₹199",
+      "target": "#register"
+    },
+    {
+      "text": "Join the Webinar – ₹199",
+      "target": "#register"
+    },
+    {
+      "text": "Reserve Your Place – ₹199",
+      "target": "#register"
+    },
+    {
+      "text": "Register Now – ₹199",
+      "target": "#register"
+    },
+    {
+      "text": "Registration",
+      "target": "#register"
+    }
+  ],
+  "allRegistrationLinksWork": true,
+  "ticketFormLink": true,
+  "footer": {
+    "tagline": "Life • Clarity • Balance",
+    "links": 7,
+    "legalLinks": 0,
+    "duplicateDestinations": 0
+  },
+  "layouts": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "columns": 2
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "columns": 2
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "columns": 2
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "columns": 1
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "columns": 1
+    }
+  ],
+  "sticky": {
+    "visibleAtTop": true,
+    "navigates": true,
+    "hiddenAtForm": true,
+    "hiddenAtSummary": true,
+    "hiddenAtFinalCTA": true,
+    "hiddenWhileTyping": true
+  },
+  "assessment": true,
+  "video": {
+    "duration": 29.024989,
+    "time": 0.257154,
+    "playing": true
+  },
+  "privacy": {
+    "writes": [],
+    "storage": {
+      "local": 0,
+      "session": 0
+    }
+  },
+  "refreshClearsForm": true,
+  "errors": []
+}

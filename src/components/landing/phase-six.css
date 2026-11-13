@@ -1,0 +1,33 @@
+﻿/* Phase 6: registration, FAQ, final invitation and footer only. */
+.landing-page #register.phase-six-registration { background: radial-gradient(ellipse at 5% 15%,#7c3a8e1b,transparent 45%),radial-gradient(ellipse at 100% 55%,#244e731c,transparent 50%),#0a0b1d; padding-bottom: 55px; }
+.phase-six-registration > .container-shell > .section-heading .heading-section,.phase-six-faq .heading-section,.phase-six-final .heading-section { font: 600 clamp(30px,3.2vw,44px)/1.14 Georgia,serif; letter-spacing: -.025em; }
+.phase-six-registration > .container-shell > .section-heading .body-copy { max-width: 76ch; color: #c3b9d1; font-size: 14px; }
+.phase-six-faq .section-heading { max-width: 830px; }
+.phase-six-faq .registration-faq-item { overflow: hidden; border: 1px solid #a28abb40; border-radius: 15px; background: linear-gradient(125deg,#2e204143,#12162a); }
+.phase-six-faq .registration-faq-item h3 { margin: 0; font-size: 14px; font-weight: 500; }
+.phase-six-faq .registration-faq-item h3 > button { display: flex; justify-content: space-between; align-items: center; gap: 18px; width: 100%; min-height: 66px; padding: 20px 24px; border: 0; background: transparent; color: #eee4f7; text-align: left; cursor: pointer; }
+.phase-six-faq .registration-faq-item h3 > button > svg { color: #d9bc78; }
+.phase-six-faq .registration-faq-item > .faq-answer { overflow: hidden; padding: 0; max-width: none; animation: none; }
+.phase-six-faq .faq-answer p { margin: 0; padding: 0 24px 24px; font-size: 13px; line-height: 1.9; color: #bdb3cd; }
+.landing-page .phase-six-final { position: relative; background: radial-gradient(ellipse at 5% 70%,#2255701c,transparent 55%),radial-gradient(ellipse at 90% 10%,#743a941f,transparent 60%),#090b1c; padding-top: 15px; }
+.phase-six-final .landing-final-panel.glass-card { border: 1px solid #c0a0d35e; border-radius: 25px; background: radial-gradient(ellipse at 50% 0,#643c882b,transparent 75%),#15142a66; }
+.phase-six-final .landing-final-panel .heading-section { max-width: 30ch; }
+.phase-six-final .landing-final-panel .body-copy { font-size: 14px; color: #bdb2cd; }
+.phase-six-final .button { border: 1px solid #f3d49b; border-radius: 100px; background: linear-gradient(150deg,#f6dc9c,#d5aa50); color: #171020; padding-inline: 28px; }
+.phase-six-footer { background: #080a17; }
+.phase-six-footer .footer-grid { grid-template-columns: 1.1fr 1fr; gap: 60px; }
+.phase-six-footer .footer-brand { display: flex; align-items: center; gap: 13px; font: 600 28px/1.2 Georgia,serif; }
+.phase-six-footer .footer-brand > svg { width: 58px; height: 47px; }
+.footer-tagline { color: #d9cbb3; font-size: 12px; margin-top: 17px; }
+.phase-six-footer .footer-description { font-size: 12px; max-width: 40ch; }
+.phase-six-footer .footer-legal { align-items: center; font-size: 10px; }
+.phase-six-footer .footer-legal > span { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; }
+.phase-six-mobile-bar .button { border-radius: 100px; }
+.phase-six-mobile-bar strong { font-size: 16px; }
+.landing-page:has(dialog[open]) .phase-six-mobile-bar { display: none; }
+@media(max-width:767px) { .phase-six-registration > .container-shell > .section-heading .heading-section,.phase-six-faq .heading-section,.phase-six-final .heading-section { font-size: clamp(28px,7.8vw,36px); } .phase-six-registration > .container-shell > .section-heading .body-copy { font-size: 13px; } .phase-six-faq .registration-faq-item h3 > button { min-height: 65px; padding: 20px; font-size: 13px; } .phase-six-faq .faq-answer p { padding: 0 20px 22px; font-size: 12px; } .phase-six-final .button { width: 100%; } .phase-six-footer .footer-grid { grid-template-columns: 1fr; gap: 30px; } .phase-six-footer .footer-bottom { display: grid; gap: 20px; } .mobile-register-bar.phase-six-mobile-bar { padding-left: max(20px,env(safe-area-inset-left)); padding-right: max(20px,env(safe-area-inset-right)); padding-bottom: calc(10px + env(safe-area-inset-bottom)); } .mobile-register-bar.phase-six-mobile-bar strong { font-size: 16px; } }
+@media(prefers-reduced-motion:reduce) { .phase-six-registration *, .phase-six-final * { transition: none !important; } }
+
+.phase-six-faq button:focus-visible { outline: 2px solid #ddc4fa; outline-offset: -4px; }
+
+.phase-six-registration > .container-shell > .small-copy { margin-top: var(--space-4); }

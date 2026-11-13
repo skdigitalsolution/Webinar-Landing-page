@@ -1,0 +1,251 @@
+{
+  "contentUnchanged": true,
+  "desktop": {
+    "before": 21965,
+    "after": 20291,
+    "reduction": 1674
+  },
+  "mobileCapture": {
+    "before": {
+      "width": 390,
+      "height": 37036
+    },
+    "after": {
+      "width": 390,
+      "height": 34796
+    }
+  },
+  "sections": [
+    {
+      "section": "home",
+      "before": 567,
+      "after": 574,
+      "padding": "8px 28px"
+    },
+    {
+      "section": "problems",
+      "before": 618,
+      "after": 630,
+      "padding": "72px"
+    },
+    {
+      "section": "mentor-introduction",
+      "before": 878,
+      "after": 776,
+      "padding": "47.52px"
+    },
+    {
+      "section": "mentor",
+      "before": 1110,
+      "after": 1007,
+      "padding": "72px 47.52px"
+    },
+    {
+      "section": "circle-of-life",
+      "before": 658,
+      "after": 681,
+      "padding": "72px"
+    },
+    {
+      "section": "life-dimension-detail",
+      "before": 0,
+      "after": 0,
+      "padding": "32px"
+    },
+    {
+      "section": "assessment",
+      "before": 4670,
+      "after": 4113,
+      "padding": "72px 0px"
+    },
+    {
+      "section": "assessment-form-section",
+      "before": 991,
+      "after": 798,
+      "padding": "0px"
+    },
+    {
+      "section": "assessment-comparison",
+      "before": 1829,
+      "after": 1609,
+      "padding": "47.52px"
+    },
+    {
+      "section": "assessment-results",
+      "before": 1074,
+      "after": 1086,
+      "padding": "47.52px 0px"
+    },
+    {
+      "section": "assessment-section assessment-bridge",
+      "before": 465,
+      "after": 362,
+      "padding": "47.52px"
+    },
+    {
+      "section": "future-reflection",
+      "before": 900,
+      "after": 911,
+      "padding": "72px"
+    },
+    {
+      "section": "solution",
+      "before": 672,
+      "after": 679,
+      "padding": "72px"
+    },
+    {
+      "section": "next-step",
+      "before": 942,
+      "after": 956,
+      "padding": "72px"
+    },
+    {
+      "section": "ai-planning",
+      "before": 546,
+      "after": 573,
+      "padding": "72px"
+    },
+    {
+      "section": "webinar-bridge",
+      "before": 551,
+      "after": 439,
+      "padding": "47.52px"
+    },
+    {
+      "section": "learning",
+      "before": 3243,
+      "after": 3022,
+      "padding": "72px 0px"
+    },
+    {
+      "section": "learning-section learning-outcomes",
+      "before": 561,
+      "after": 577,
+      "padding": "0px 47.52px"
+    },
+    {
+      "section": "learning-dimensions",
+      "before": 761,
+      "after": 678,
+      "padding": "47.52px"
+    },
+    {
+      "section": "webinar-agenda",
+      "before": 1220,
+      "after": 1101,
+      "padding": "47.52px"
+    },
+    {
+      "section": "webinar-difference",
+      "before": 607,
+      "after": 592,
+      "padding": "47.52px"
+    },
+    {
+      "section": "benefits",
+      "before": 2863,
+      "after": 2674,
+      "padding": "0px"
+    },
+    {
+      "section": "benefit-books",
+      "before": 885,
+      "after": 882,
+      "padding": "72px"
+    },
+    {
+      "section": "whatsapp-learning",
+      "before": 838,
+      "after": 758,
+      "padding": "72px"
+    },
+    {
+      "section": "telegram-community",
+      "before": 578,
+      "after": 572,
+      "padding": "72px"
+    },
+    {
+      "section": "learning-registration",
+      "before": 562,
+      "after": 462,
+      "padding": "47.52px"
+    },
+    {
+      "section": "register",
+      "before": 2098,
+      "after": 1733,
+      "padding": "72px 47.52px"
+    },
+    {
+      "section": "registration-workspace-section",
+      "before": 1706,
+      "after": 1333,
+      "padding": "0px"
+    },
+    {
+      "section": "glass-card  registration-form-card",
+      "before": 936,
+      "after": 888,
+      "padding": "28px"
+    },
+    {
+      "section": "registration-summary",
+      "before": 726,
+      "after": 425,
+      "padding": "28px"
+    },
+    {
+      "section": "faq",
+      "before": 659,
+      "after": 647,
+      "padding": "47.52px"
+    },
+    {
+      "section": "registration-faq-section phase-six-faq",
+      "before": 594,
+      "after": 551,
+      "padding": "0px"
+    },
+    {
+      "section": "final-cta",
+      "before": 542,
+      "after": 456,
+      "padding": "0px 72px"
+    },
+    {
+      "section": "site-footer phase-six-footer",
+      "before": 373,
+      "after": 344,
+      "padding": "47.52px 0px"
+    }
+  ],
+  "responsive": [
+    {
+      "width": 360,
+      "document": 360,
+      "height": 35185
+    },
+    {
+      "width": 390,
+      "document": 390,
+      "height": 34796
+    },
+    {
+      "width": 768,
+      "document": 753,
+      "height": 22335
+    },
+    {
+      "width": 1024,
+      "document": 1009,
+      "height": 21749
+    },
+    {
+      "width": 1440,
+      "document": 1425,
+      "height": 20291
+    }
+  ]
+}

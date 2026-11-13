@@ -1,0 +1,69 @@
+{
+  "protection": [
+    {
+      "file": "src/data/registration.js",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/webinar.js",
+      "unchanged": true
+    },
+    {
+      "file": "src/pages/Register.jsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/utils/registrationValidation.js",
+      "unchanged": true
+    },
+    {
+      "file": "src/utils/checkoutPreview.js",
+      "unchanged": true
+    },
+    {
+      "file": "src/pages/Assessment.jsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/context/ReflectionContext.jsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/landing/PersonalNextStepPreview.jsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/webinarLearning.js",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/webinarBonuses.js",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/solutionSteps.js",
+      "unchanged": true
+    },
+    {
+      "file": "src/App.jsx",
+      "unchanged": true
+    }
+  ],
+  "bundles": [
+    {
+      "file": "CircleOfLife3D-DbNv7rcH.js",
+      "bytes": 927209,
+      "gzip": 243231
+    },
+    {
+      "file": "index-D6tpXNzb.css",
+      "bytes": 155705,
+      "gzip": 29932
+    },
+    {
+      "file": "index-DZQvvy9Q.js",
+      "bytes": 642529,
+      "gzip": 208799
+    }
+  ]
+}

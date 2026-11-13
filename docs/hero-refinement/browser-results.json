@@ -1,0 +1,96 @@
+{
+  "scene": "ready",
+  "interaction": "dimension selection and animation pause/resume passed",
+  "layout": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "heroOverflow": false,
+      "headingWidth": 495,
+      "scene": "ready"
+    },
+    {
+      "width": 1100,
+      "overflow": false,
+      "heroOverflow": false,
+      "headingWidth": 409,
+      "scene": "ready"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "heroOverflow": false,
+      "headingWidth": 493,
+      "scene": "ready"
+    },
+    {
+      "width": 820,
+      "overflow": false,
+      "heroOverflow": false,
+      "headingWidth": 390,
+      "scene": "ready"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "heroOverflow": false,
+      "headingWidth": 364,
+      "scene": "ready"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "heroOverflow": false,
+      "headingWidth": 350,
+      "scene": "ready"
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "heroOverflow": false,
+      "headingWidth": 280,
+      "scene": "ready"
+    }
+  ],
+  "video": {
+    "src": "http://127.0.0.1:5174/Webinar-Landing-page/assets/webinar/3.mp4",
+    "duration": 29.024989,
+    "controls": true,
+    "playsInline": true,
+    "noAutoplay": true,
+    "time": 0.164009,
+    "playing": true,
+    "pauseWorks": true
+  },
+  "escape": {
+    "closed": true,
+    "paused": true,
+    "focusReturned": true,
+    "scrollUnlocked": true
+  },
+  "closeButtonPauses": true,
+  "registration": {
+    "hash": "#register",
+    "target": true
+  },
+  "reduced": "static",
+  "assets": [
+    {
+      "file": "1.jpeg",
+      "status": 200
+    },
+    {
+      "file": "2.jpeg",
+      "status": 200
+    },
+    {
+      "file": "3.mp4",
+      "status": 200
+    },
+    {
+      "file": "4.jpeg",
+      "status": 200
+    }
+  ],
+  "errors": []
+}

@@ -14,4 +14,4 @@ export const legacySections = {
   '/what-youll-learn': 'learning', '/learn': 'learning', '/benefits': 'benefits',
   '/register': 'register', '/testimonials-faq': 'faq', '/design-system': 'home',
 }
-export const landingSectionIds = ['home','problems','circle-of-life','assessment','learning','mentor','benefits','register','faq']
+export const landingSectionIds = ['home','problems','mentor-introduction','mentor','circle-of-life','assessment','future-reflection','solution','next-step','ai-planning','webinar-bridge','learning','benefits','register','faq','final-cta']

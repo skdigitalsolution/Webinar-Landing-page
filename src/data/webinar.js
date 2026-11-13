@@ -11,6 +11,7 @@ export const webinar = {
   locationLabel: 'Online via Zoom',
   ticketLabel: '₹199',
   ticketAmount: 199,
+  paymentLink: 'https://rzp.io/rzp/SRxnIIP',
   registrationDestination: '/#register',
   registrationOpen: false,
   pendingConfirmations: [

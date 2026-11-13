@@ -1,0 +1,54 @@
+/* Scoped Phase 2 styles reuse the existing midnight, violet, cyan and gold tokens. */
+.rapport-section { position: relative; padding-block: clamp(3rem,6vw,5rem); border-top: 1px solid var(--border-subtle); }
+.rapport-section .heading-section { font-family: Georgia,'Times New Roman',serif; font-weight: 600; font-size: clamp(2rem,3.15vw,2.8rem); line-height: 1.12; letter-spacing: -.025em; }
+.rapport-section .section-heading .body-copy { font-size: .9375rem; line-height: 1.85; max-width: 66ch; color: #b9b7cd; }
+.rapport-gold { color: #edcf8b; }
+.rapport-problems { background: radial-gradient(ellipse at 50% 100%,#663a9e19,transparent 70%),linear-gradient(#0a091d,#0b0b20); }
+.rapport-problems::before { content: ''; position: absolute; top: 0; left: 20%; right: 20%; height: 1px; background: linear-gradient(90deg,transparent,#b68bd67a,transparent); }
+.rapport-problem-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 18px; margin-top: 36px; }
+.rapport-problem-card.glass-card { position: relative; min-width: 0; min-height: 242px; padding: 27px 23px; border: 1px solid color-mix(in srgb,var(--rapport-accent) 28%,transparent); border-radius: 20px; background: radial-gradient(ellipse at 8% 0%,color-mix(in srgb,var(--rapport-accent) 9%,transparent),transparent 70%),linear-gradient(145deg,#23203d99,#101124c9); box-shadow: inset 0 1px 0 #ffffff09,0 10px 32px #02020a26; }
+.rapport-icon { display: grid; place-items: center; width: 55px; height: 55px; margin-bottom: 26px; border-radius: 16px; color: var(--rapport-accent); border: 1px solid color-mix(in srgb,var(--rapport-accent) 28%,transparent); background: color-mix(in srgb,var(--rapport-accent) 7%,transparent); box-shadow: 0 0 25px color-mix(in srgb,var(--rapport-accent) 6%,transparent); }
+.rapport-problem-card h3 { font: 600 20px/1.3 Georgia,serif; color: #f2eafd; margin-bottom: 12px; }
+.rapport-problem-card p { font-size: 13px; line-height: 1.8; color: #bdb9d0; }
+.rapport-video-section { padding-top: 44px; background: radial-gradient(ellipse at 50% 48%,#6b3ba624,transparent 65%),#0b0b20; border-top: 0; }
+.rapport-video-intro { display: grid; justify-items: center; gap: 16px; margin-bottom: 32px; }
+.rapport-section-marker { display: flex; align-items: center; gap: 9px; font-size: 10px; color: #c0a7e4; letter-spacing: .17em; }
+.rapport-video-frame { position: relative; width: min(100%,920px); margin-inline: auto; padding: 9px; border: 1px solid #a27bd670; border-radius: 24px; background: linear-gradient(135deg,#8b55c82e,#11132999 55%,#41d7ec1c); box-shadow: 0 18px 60px #02020d50,0 0 40px #8855ff12; transition: border-color var(--duration-normal),box-shadow var(--duration-normal); }
+.rapport-video-frame .premium-video { border-radius: 16px; border-color: #9873c55c; }
+.rapport-video-frame video { max-height: none; }
+.rapport-video-reserved { display: grid; place-content: center; justify-items: center; gap: 16px; width: 100%; aspect-ratio: 16/9; border-radius: 16px; color: #c7b8e2; font-size: 13px; background: radial-gradient(ellipse,#44276055,#0b0c1f 70%); }
+.rapport-video-caption { display: flex; justify-content: center; gap: 12px; color: var(--text-secondary); font-size: 11px; margin-top: 17px; }
+.rapport-video-caption > span { color: var(--accent-gold); }
+.rapport-mentor { background: radial-gradient(ellipse at 0% 36%,#35668017,transparent 45%),radial-gradient(ellipse at 95% 44%,#6036ab1c,transparent 58%),#0a0b1d; }
+.rapport-mentor-grid { display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: clamp(36px,6vw,84px); }
+.rapport-mentor-artwork { margin: 0; min-width: 0; width: min(100%,435px); justify-self: center; }
+.rapport-artwork-frame { position: relative; padding: 8px; border-radius: 24px; border: 1px solid #9d85cb7d; background: linear-gradient(135deg,#9e72d236,#0d1328 50%,#5fd7df2e); box-shadow: 0 0 45px #8855ff16,0 20px 45px #03030e66; }
+.rapport-artwork-frame img { display: block; width: 100%; height: auto; object-fit: contain; border-radius: 17px; }
+.rapport-mentor-artwork figcaption { margin-top: 13px; font-size: 10px; text-align: center; color: var(--text-secondary); line-height: 1.7; }
+.rapport-mentor-copy { min-width: 0; }
+.rapport-mentor-copy .section-heading { gap: 19px; }
+.rapport-mentor-copy .heading-section { max-width: 20ch; }
+.rapport-credentials { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 23px 0; padding: 0; }
+.rapport-credentials li { border: 1px solid #c5a26436; border-radius: 100px; background: #d6b46a08; color: #dfccaa; font-size: 10px; padding: 6px 11px; }
+.rapport-bio { margin-bottom: 20px; font-size: 14px; }
+.rapport-author-highlight { display: flex; align-items: center; gap: 17px; padding: 21px 23px; border-left: 2px solid var(--accent-gold); background: linear-gradient(90deg,#d6b46a0d,transparent); margin-block: 25px; }
+.rapport-author-highlight > svg { color: var(--accent-gold); }
+.rapport-author-highlight .eyebrow { font-size: 8px; letter-spacing: .15em; }
+.rapport-author-highlight h3 { font: 600 23px/1.4 Georgia,serif; margin-top: 4px; color: #f0dfb8; }
+.rapport-approach h3 { font: 600 20px/1.4 Georgia,serif; margin-bottom: 9px; }
+.rapport-approach .body-copy { font-size: 13px; }
+.rapport-register.button { border-radius: 100px; margin-top: 26px; min-height: 50px; padding-inline: 25px; }
+.rapport-authority-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; margin-top: 46px; }
+.rapport-authority-card.glass-card { display: flex; align-items: center; gap: 16px; min-width: 0; padding: 25px; border-radius: 17px; background: linear-gradient(120deg,#37274d33,#14152c99); border-color: #a58ab52e; }
+.rapport-authority-card svg { color: var(--accent-gold); }
+.rapport-authority-card h3 { font-size: 14px; font-weight: 500; line-height: 1.5; }
+.rapport-bridge { display: grid; justify-items: center; text-align: center; gap: 23px; margin-top: clamp(46px,6vw,80px); }
+.rapport-bridge-line { height: 1px; width: 120px; background: linear-gradient(90deg,transparent,#d6b46a,transparent); }
+.rapport-bridge p { font: 400 clamp(23px,2.5vw,32px)/1.35 Georgia,serif; color: #e1d9ef; max-width: 35ch; }
+.rapport-bridge .button { border-radius: 100px; border-color: #a68bca66; color: #e8d4a6; padding-inline: 24px; }
+@media(hover:hover) { .rapport-problem-card.glass-card--hover:hover { transform: translateY(-4px); border-color: color-mix(in srgb,var(--rapport-accent) 60%,transparent); box-shadow: 0 12px 34px #02020d45,0 0 24px color-mix(in srgb,var(--rapport-accent) 9%,transparent); } .rapport-video-frame:hover { border-color: #b99ae6b3; box-shadow: 0 18px 60px #02020d50,0 0 32px #8855ff25; } }
+@media(max-width:1099px) { .rapport-problem-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .rapport-problem-card.glass-card { min-height: 215px; } .rapport-mentor-grid { gap: 30px; grid-template-columns: .9fr 1.1fr; } .rapport-credentials { gap: 7px; } .rapport-credentials li { font-size: 9px; } .rapport-authority-card.glass-card { gap: 12px; padding: 21px 17px; } .rapport-authority-card h3 { font-size: 12px; } }
+@media(max-width:767px) { .rapport-desktop-break { display: none; } .rapport-section { padding-block: 44px; } .rapport-section .heading-section { font-size: clamp(28px,7.8vw,36px); } .rapport-section .section-heading .body-copy { font-size: 13px; } .rapport-problem-grid { grid-template-columns: 1fr; gap: 14px; margin-top: 27px; } .rapport-problem-card.glass-card { min-height: 0; padding: 24px; } .rapport-icon { margin-bottom: 18px; } .rapport-problem-card p { font-size: 13px; } .rapport-video-frame { padding: 5px; border-radius: 17px; } .rapport-video-frame .premium-video { border-radius: 12px; } .rapport-video-caption { gap: 7px; font-size: 10px; } .rapport-section-marker { font-size: 9px; } .rapport-mentor-grid { grid-template-columns: 1fr; gap: 32px; } .rapport-mentor-artwork { width: min(100%,390px); } .rapport-mentor-copy .heading-section { max-width: none; } .rapport-credentials li { font-size: 10px; } .rapport-authority-grid { grid-template-columns: 1fr; gap: 12px; margin-top: 30px; } .rapport-authority-card.glass-card { padding: 22px; } .rapport-authority-card h3 { font-size: 14px; } .rapport-register.button,.rapport-bridge .button { width: 100%; min-height: 50px; } .rapport-bridge { gap: 22px; margin-top: 45px; } .rapport-bridge p br { display: none; } }
+@media(prefers-reduced-motion:reduce) { .rapport-section *, .rapport-section *::before, .rapport-section *::after { transition: none !important; animation: none !important; } }
+
+.landing-page #mentor.rapport-mentor { padding-bottom: clamp(3rem,6vw,5rem); }

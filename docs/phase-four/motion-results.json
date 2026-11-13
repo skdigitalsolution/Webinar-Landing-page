@@ -1,0 +1,6 @@
+{
+  "before": "matrix(0.0613, 0, 0, 1, 0, 0)",
+  "after": "matrix(0.9816, 0, 0, 1, 0, 0)",
+  "cardReveals": true,
+  "errors": []
+}

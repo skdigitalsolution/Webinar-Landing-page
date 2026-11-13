@@ -52,3 +52,20 @@ test('does not mutate input ratings', () => {
   calculateAssessment(input)
   assert.deepEqual(input, ratings(8,7,6,5))
 })
+
+import { calculateComparison } from '../src/utils/assessmentCalculations.js'
+
+test('comparison retains signed aspirational differences and stable dimension order', () => {
+  const current = Object.freeze(ratings(8,2,5,9))
+  const desired = Object.freeze(ratings(6,7,5,10))
+  const result = calculateComparison(current,desired)
+  assert.deepEqual(result.map(row=>row.difference),[-2,5,0,1])
+  assert.deepEqual(result.map(row=>row.current),[8,2,5,9])
+  assert.deepEqual(result.map(row=>row.desired),[6,7,5,10])
+  assert.deepEqual(ids(result),['health','wealth','relationships','spiritual-bliss'])
+})
+test('comparison validates both rating sets and defaults are neutral rather than all 10', () => {
+  assert.ok(calculateComparison(createInitialRatings(),createInitialRatings()).every(row=>row.difference===0))
+  assert.throws(()=>calculateComparison(createInitialRatings(),{...createInitialRatings(),wealth:11}),RangeError)
+  assert.throws(()=>calculateComparison(null,createInitialRatings()),RangeError)
+})

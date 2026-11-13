@@ -1,0 +1,190 @@
+{
+  "sectionOrder": [
+    "learning-section learning-outcomes",
+    "learning-dimensions",
+    "webinar-agenda",
+    "webinar-difference",
+    "benefit-books",
+    "whatsapp-learning",
+    "telegram-community",
+    "learning-registration"
+  ],
+  "uniqueSections": true,
+  "outcomes": [
+    "Discover",
+    "Understand",
+    "Explore AI",
+    "Plan"
+  ],
+  "dimensions": [
+    {
+      "title": "Health",
+      "examples": [
+        "Organizing wellness routines",
+        "Tracking personal habits",
+        "Preparing reflection questions"
+      ]
+    },
+    {
+      "title": "Wealth",
+      "examples": [
+        "Organizing financial goals",
+        "Creating planning checklists",
+        "Reviewing personal priorities"
+      ]
+    },
+    {
+      "title": "Relationships",
+      "examples": [
+        "Structuring communication goals",
+        "Planning quality time",
+        "Reflecting on relationship priorities"
+      ]
+    },
+    {
+      "title": "Spiritual Bliss",
+      "examples": [
+        "Reflection prompts",
+        "Gratitude journaling ideas",
+        "Personal routine planning"
+      ]
+    }
+  ],
+  "agenda": {
+    "titles": [
+      "Welcome and Introduction",
+      "Understanding the Circle of Life",
+      "Four Life Dimensions",
+      "Draw Your Own Circle of Life Activity",
+      "Goal Clarity and Self-Reflection",
+      "Explore AI-Assisted Planning",
+      "Questions and Next Steps"
+    ],
+    "status": "Indicative agenda · pending approval",
+    "hasDurations": false
+  },
+  "differenceHighlights": [
+    "Structured and organized learning",
+    "Reflection on your own life",
+    "Circle of Life activity",
+    "Personal goal clarity",
+    "Exploration of AI-assisted planning",
+    "Practical next-step thinking"
+  ],
+  "books": [
+    {
+      "title": "Circle of Life",
+      "caption": "Illustrative cover · final artwork pending",
+      "coverLabel": "ILLUSTRATIVE COVER"
+    },
+    {
+      "title": "Health",
+      "caption": "Illustrative cover · final artwork pending",
+      "coverLabel": "ILLUSTRATIVE COVER"
+    },
+    {
+      "title": "Wealth",
+      "caption": "Illustrative cover · final artwork pending",
+      "coverLabel": "ILLUSTRATIVE COVER"
+    },
+    {
+      "title": "Relationship",
+      "caption": "Illustrative cover · final artwork pending",
+      "coverLabel": "ILLUSTRATIVE COVER"
+    }
+  ],
+  "bookConditions": "Delivery format, eligibility, timing and final terms are subject to confirmation.",
+  "whatsapp": {
+    "days": 30,
+    "sampleLabel": "ILLUSTRATIVE SAMPLE TIP",
+    "caption": "Sample educational content · not a live conversation",
+    "inputs": 0
+  },
+  "sampleCategories": [
+    "Health",
+    "Wealth",
+    "Relationships",
+    "Spiritual Bliss"
+  ],
+  "telegram": {
+    "links": 0,
+    "status": "Access details pending",
+    "caption": "Illustrative community concept · no invitation link supplied"
+  },
+  "cta": {
+    "text": "Reserve Your Place – ₹199",
+    "note": "Registration preview only. Live registration and payments are not open."
+  },
+  "registration": true,
+  "assessment": {
+    "current": "6",
+    "total": "21 / 40"
+  },
+  "sharedPlanningPreserved": true,
+  "layouts": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "outcomeColumns": 4,
+      "dimensionColumns": 4,
+      "bookColumns": 4
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "outcomeColumns": 2,
+      "dimensionColumns": 2,
+      "bookColumns": 2
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "outcomeColumns": 2,
+      "dimensionColumns": 2,
+      "bookColumns": 2
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "outcomeColumns": 1,
+      "dimensionColumns": 1,
+      "bookColumns": 1
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "outcomeColumns": 1,
+      "dimensionColumns": 1,
+      "bookColumns": 1
+    }
+  ],
+  "reduced": {
+    "books": "none",
+    "community": "none",
+    "transition": "0s"
+  },
+  "video": {
+    "duration": 29.024989,
+    "time": 0.28,
+    "playing": true
+  },
+  "assets": [
+    {
+      "file": "1.jpeg",
+      "status": 200
+    },
+    {
+      "file": "2.jpeg",
+      "status": 200
+    },
+    {
+      "file": "3.mp4",
+      "status": 200
+    },
+    {
+      "file": "4.jpeg",
+      "status": 200
+    }
+  ],
+  "errors": []
+}

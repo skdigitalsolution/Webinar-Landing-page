@@ -1,0 +1,132 @@
+{
+  "order": [
+    "home",
+    "problems",
+    "mentor-introduction",
+    "mentor",
+    "circle-of-life",
+    "assessment",
+    "future-reflection",
+    "solution",
+    "next-step",
+    "ai-planning",
+    "webinar-bridge",
+    "learning",
+    "benefits",
+    "register",
+    "faq"
+  ],
+  "initial": {
+    "area": "",
+    "disabled": true,
+    "focus": "",
+    "tabs": [
+      "6 Months",
+      "1 Year",
+      "3 Years"
+    ]
+  },
+  "timeline": [
+    "Will the same challenges still be part of your daily routine?",
+    "Will you feel closer to the personal goals that matter to you?",
+    "Where might your current choices lead if your priorities remain unchanged?"
+  ],
+  "timelineKeyboard": true,
+  "sharedSelection": {
+    "assessment": [
+      "health",
+      "wealth",
+      "relationships"
+    ],
+    "future": [
+      "health",
+      "wealth",
+      "relationships"
+    ],
+    "planner": "wealth",
+    "solution": "Health · Wealth · Relationships",
+    "color": "#e4bf77"
+  },
+  "planner": {
+    "area": "Wealth",
+    "priority": "Make room for a weekly budget review",
+    "action": "Set aside 10 minutes on Sunday",
+    "date": "2026-11-30",
+    "disclosure": "Your words, organized into a reflection template. No AI service is involved."
+  },
+  "separateAreaDrafts": true,
+  "plannerReset": {
+    "allDraftsCleared": true,
+    "assessmentSelectionPreserved": true
+  },
+  "assessment": {
+    "total": "22 / 40",
+    "differences": [
+      -3,
+      6,
+      0,
+      1
+    ]
+  },
+  "assessmentResetSync": true,
+  "anchors": true,
+  "layouts": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "processColumns": 4,
+      "plannerColumns": 2,
+      "timelineOrientation": "horizontal"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "processColumns": 2,
+      "plannerColumns": 2,
+      "timelineOrientation": "horizontal"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "processColumns": 2,
+      "plannerColumns": 2,
+      "timelineOrientation": "horizontal"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "processColumns": 1,
+      "plannerColumns": 1,
+      "timelineOrientation": "vertical"
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "processColumns": 1,
+      "plannerColumns": 1,
+      "timelineOrientation": "vertical"
+    }
+  ],
+  "processCards": [
+    "Understand",
+    "Identify",
+    "Explore AI",
+    "Plan"
+  ],
+  "reducedMotion": true,
+  "video": {
+    "duration": 29.024989,
+    "time": 0.133976,
+    "playing": true
+  },
+  "registration": true,
+  "refreshClearsPlan": true,
+  "privacy": {
+    "writes": [],
+    "storage": {
+      "local": 0,
+      "session": 0
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,123 @@
+{
+  "order": [
+    "home",
+    "problems",
+    "mentor-introduction",
+    "mentor",
+    "circle-of-life",
+    "assessment",
+    "learning",
+    "benefits",
+    "register",
+    "faq"
+  ],
+  "assessmentOrder": [
+    "assessment-form-section",
+    "assessment-comparison",
+    "assessment-results",
+    "assessment-section assessment-bridge"
+  ],
+  "pillarInteraction": true,
+  "initial": {
+    "current": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "desired": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "total": "20 / 40",
+    "defaults": true
+  },
+  "keyboard": {
+    "arrow": true,
+    "home": true,
+    "end": true
+  },
+  "calculation": {
+    "total": "22 / 40",
+    "percentage": "55%",
+    "highest": "Health, Spiritual Bliss9 / 10",
+    "lowest": "Wealth, Relationships2 / 10",
+    "differences": [
+      -3,
+      6,
+      0,
+      1
+    ],
+    "currentPoints": "210,88.5 237,210 210,237 88.5,210.00000000000003",
+    "desiredPoints": "210,129 318,210 210,237 75,210.00000000000003"
+  },
+  "priorities": "Health, Relationships",
+  "edit": true,
+  "reset": {
+    "ratings": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "selected": 0,
+    "total": "20 / 40",
+    "highest": "Health, Wealth, Relationships, Spiritual Bliss5 / 10",
+    "lowest": "Health, Wealth, Relationships, Spiritual Bliss5 / 10",
+    "defaults": true
+  },
+  "bridge": true,
+  "layouts": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "pillarColumns": 4
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "pillarColumns": 2
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "pillarColumns": 2
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "pillarColumns": 1
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "pillarColumns": 1
+    }
+  ],
+  "touch": {
+    "before": 5,
+    "after": 8
+  },
+  "interactiveChartLabels": true,
+  "video": {
+    "duration": 29.024989,
+    "time": 0.122828,
+    "playing": true
+  },
+  "mentorImage": true,
+  "registration": true,
+  "privacy": {
+    "assessmentWrites": [],
+    "storage": {
+      "local": 0,
+      "session": 0
+    }
+  },
+  "errors": []
+}

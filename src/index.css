@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@import "tailwindcss" source(none);
+@source "./";
+@source "../index.html";
 
 /* Shared visual primitives. Brand colors stay exact; accessible control shades
    are separate tokens so contrast does not depend on decorative glow. */

@@ -1,0 +1,150 @@
+/* Landing-only finishing layer. Standalone component styles remain reusable. */
+.landing-page {
+  --layout-section: clamp(48px, 5vw, 72px);
+  --layout-subsection: clamp(32px, 3.3vw, 48px);
+  --layout-heading-gap: clamp(24px, 2.5vw, 36px);
+  --layout-grid-gap: clamp(16px, 1.7vw, 24px);
+  --layout-card-padding: clamp(20px, 2vw, 28px);
+  --layout-text-gap: clamp(12px, 1.1vw, 16px);
+  --container-width: 1200px;
+}
+.landing-page .landing-section,
+.landing-page .rapport-section,
+.landing-page .solution-section { padding-block: var(--layout-section); }
+.landing-page .section-heading { gap: var(--layout-text-gap); }
+.landing-page .section-heading .heading-section { line-height: 1.16; }
+.landing-page .section-heading .body-copy { line-height: 1.75; }
+.landing-page .landing-section > .container-shell > .section-heading { margin-bottom: var(--layout-heading-gap); }
+/* These wrappers contain their own subsections; don't charge two section paddings. */
+.landing-page #assessment { padding-bottom: 0; }
+.landing-page #learning { padding-bottom: 0; }
+.landing-page #mentor.rapport-mentor { padding-bottom: var(--layout-subsection); }
+.landing-page #faq { padding-block: var(--layout-subsection); }
+.landing-page #register.phase-six-registration { padding-bottom: var(--layout-subsection); }
+
+/* Hero retains the ring's coordinate system and natural media proportions. */
+.landing-page .phase-one-grid { min-height: 0; }
+.landing-page .phase-one-copy { padding-block: 12px; }
+.landing-page .phase-one-copy h1 { margin-block: 8px 16px; }
+.landing-page .hero-benefits { margin-block: 16px 20px; }
+.landing-page .phase-one-facts { margin-top: 12px; }
+.landing-page .hero-mentor { margin-bottom: 0; }
+
+/* Rapport: remove card height floors, keep the client artwork intact. */
+.landing-page .rapport-problem-grid { gap: var(--layout-grid-gap); margin-top: var(--layout-heading-gap); align-items: start; }
+.landing-page .rapport-problem-card.glass-card { min-height: 0; padding: var(--layout-card-padding); }
+.landing-page .rapport-icon { margin-bottom: 20px; }
+.landing-page .rapport-video-section { padding-block: var(--layout-subsection); }
+.landing-page .rapport-video-intro { gap: 12px; margin-bottom: var(--layout-heading-gap); }
+.landing-page .rapport-video-frame { width: min(100%, 800px); }
+.landing-page .rapport-mentor-grid { gap: clamp(24px, 4vw, 48px); }
+.landing-page .rapport-mentor-artwork { width: min(100%, 380px); }
+.landing-page .rapport-authority-grid { margin-top: var(--layout-heading-gap); gap: var(--layout-grid-gap); }
+.landing-page .rapport-bridge { margin-top: var(--layout-heading-gap); gap: 16px; }
+.landing-page .rapport-credentials { margin-block: 18px; }
+
+.landing-page .phase-three-pillar-grid { gap: var(--layout-grid-gap); align-items: start; }
+.landing-page .pillar-detail-toggle { display: block; min-height: 44px; margin: 20px auto 0; padding: 10px 20px; color: #ead298; background: #201c36; border: 1px solid #d6b46a70; border-radius: 24px; cursor: pointer; }
+.landing-page .landing-pillar-detail[hidden] { display: none; }
+.landing-page .phase-three-pillar button { font-size: 12px; margin-top: 18px; }
+.landing-page .pillar-visual { height: 125px; }
+
+/* Embedded assessment must not inherit the standalone page's 96px sections. */
+.landing-page .embedded-assessment .assessment-section { padding-block: var(--layout-subsection); }
+.landing-page .embedded-assessment .assessment-form-intro { padding-top: 0; margin-bottom: 20px; }
+.landing-page .embedded-assessment .assessment-form-section { padding-bottom: 0; }
+.landing-page .embedded-assessment .assessment-results { padding-block: var(--layout-subsection) 0; }
+.landing-page .assessment-workspace,
+.landing-page .assessment-results-grid { gap: var(--layout-grid-gap); }
+.landing-page .rating-card-grid { gap: 16px; align-items: start; }
+.landing-page .rating-card.glass-card { padding: 20px; }
+.landing-page .rating-card-top { margin-bottom: 16px; }
+.landing-page .rating-card label { min-height: 0; font-size: 13px; line-height: 1.65; }
+.landing-page .rating-explanation,
+.landing-page .rating-status { min-height: 0; font-size: 11px; line-height: 1.6; }
+.landing-page .rating-status { margin-top: 8px; }
+.landing-page .range-guidance { font-size: 10px; line-height: 1.6; }
+.landing-page .rating-card input[type='range'] { margin-top: 8px; }
+.landing-page .balance-chart-card.glass-card { padding: var(--layout-card-padding); }
+.landing-page .assessment-chart-legend,
+.landing-page .chart-text-alternative li { font-size: 11px; }
+.landing-page .assessment-results-grid { margin-top: var(--layout-heading-gap); }
+.landing-page .assessment-priorities { margin-top: 24px; }
+.landing-page .assessment-bridge-panel { gap: 16px; padding: var(--layout-card-padding); }
+.landing-page .assessment-bridge .heading-section { max-width: 30ch; }
+
+/* Solution and reflection retain their tabs, connecting lines and responsive grids. */
+.landing-page .solution-introduction { gap: var(--layout-heading-gap); margin-bottom: var(--layout-heading-gap); }
+.landing-page .future-timeline,
+.landing-page .next-step-workspace,
+.landing-page .ai-value-grid { margin-top: var(--layout-heading-gap); }
+.landing-page .solution-process-grid,
+.landing-page .ai-value-grid,
+.landing-page .next-step-workspace { gap: var(--layout-grid-gap); }
+.landing-page .solution-step-top { margin-bottom: 18px; }
+.landing-page .ai-value-card.glass-card { gap: 16px; padding: var(--layout-card-padding); }
+.landing-page .next-step-form { gap: 16px; }
+.landing-page .solution-webinar-panel { padding: var(--layout-card-padding); gap: 18px; }
+.landing-page #webinar-bridge { padding-block: var(--layout-subsection); }
+
+/* Learning and benefits own their internal spacing; eliminate nested page padding. */
+.landing-page .phase-five-learning .learning-outcomes { padding-block: 0 var(--layout-subsection); }
+.landing-page .phase-five-learning .learning-dimensions { padding-block: var(--layout-subsection); margin-top: 0; }
+.landing-page .phase-five-learning .learning-agenda,
+.landing-page .phase-five-learning .learning-approach { padding-block: var(--layout-subsection); }
+.landing-page .phase-five-learning .learning-outcome-list,
+.landing-page .phase-five-learning .learning-dimension-grid { gap: var(--layout-grid-gap); margin-top: var(--layout-heading-gap); align-items: start; }
+.landing-page .phase-five-learning .learning-outcome-list li,
+.landing-page .phase-five-learning .learning-dimension-card.glass-card { padding: var(--layout-card-padding); }
+.landing-page .learning-outcome-top { margin-bottom: 18px; }
+.landing-page .phase-five-learning .learning-outcome-top svg { width: 27px; height: 27px; }
+.landing-page .learning-dimension-card { gap: 12px; }
+.landing-page .learning-dimension-card ul { margin-top: 0; padding-top: 16px; }
+.landing-page .learning-agenda-grid,
+.landing-page .learning-approach-grid,
+.landing-page .phase-five-benefits .benefit-resource-grid { gap: var(--layout-heading-gap); }
+.landing-page .agenda-timeline ol { gap: 16px; }
+.landing-page .phase-five-learning .agenda-module.glass-card { padding: 20px; }
+.landing-page .phase-five-benefits .book-showcase,
+.landing-page .phase-five-benefits .whatsapp-learning,
+.landing-page .phase-five-benefits .telegram-community { padding-block: var(--layout-section); }
+.landing-page .phase-five-benefits .bonus-book-grid { gap: var(--layout-grid-gap); margin-top: var(--layout-heading-gap); align-items: start; }
+.landing-page .phase-five-benefits .bonus-book-card.glass-card { padding: var(--layout-card-padding); }
+.landing-page .learning-registration-bridge { padding-block: var(--layout-subsection); }
+.landing-page .learning-registration-panel { padding: var(--layout-card-padding); gap: 18px; }
+.landing-page .phone-sample-card { min-height: 0; padding: 20px; }
+
+/* Registration retains all legal/status text and 44–50px controls. */
+.landing-page #faq .registration-faq-section { padding-block: 0; }
+.landing-page .registration-faq-list { margin-top: var(--layout-heading-gap); }
+.landing-page .landing-final-cta { padding-block: 0 var(--layout-section); }
+.landing-page .landing-final-panel.glass-card { padding: var(--layout-heading-gap); gap: 20px; }
+.landing-page .site-footer { padding-top: var(--layout-subsection); }
+.landing-page .phase-six-footer .footer-grid { gap: var(--layout-heading-gap); padding-bottom: var(--layout-heading-gap); }
+
+/* Existing premium colors and keyboard affordances. */
+.landing-page a.button--primary { background: linear-gradient(115deg,#f0d699,#d5af62); color: #21182d; box-shadow: 0 6px 22px #d6b46a19; }
+.landing-page :is(button,a,input,summary):focus-visible { outline: 2px solid #efd394; outline-offset: 4px; }
+@media(max-width:767px) {
+  .landing-page { --layout-section: 48px; --layout-subsection: 32px; --layout-heading-gap: 24px; --layout-grid-gap: 16px; --layout-card-padding: 20px; --layout-text-gap: 12px; }
+  .landing-page .phase-one-hero { padding-block: 16px 24px; }
+  .landing-page .phase-one-copy { padding-top: 0; }
+  .landing-page .hero-mentor { flex-direction: row; align-items: center; gap: 12px; margin-block: 12px 20px; }
+  .landing-page .hero-portrait-frame { flex: 0 0 38%; width: 38%; height: 160px; min-height: 0; }
+  .landing-page .hero-mentor figcaption { width: auto; flex: 1; margin: 0; padding: 14px 10px; }
+  .landing-page .hero-mentor figcaption strong { font-size: 15px; }
+  .landing-page .rapport-mentor-artwork { width: min(100%, 330px); }
+  .landing-page .phase-three-pillar-grid { gap: 16px; }
+  .landing-page .comparison-table thead th { font-size: 11px; }
+  .landing-page .solution-process-grid { gap: 24px; }
+  .landing-page .solution-connector { bottom: -24px; }
+  .landing-page .phase-five-benefits .book-object { width: min(72%, 165px); }
+  .landing-page .site-footer.phase-six-footer { padding-bottom: 0; }
+  .landing-page .phase-six-footer .footer-bottom { gap: 12px; }
+}
+
+/* Keep the radar readable without allowing its square SVG to dictate tall rows. */
+.landing-page .balance-radar { width: min(100%, 380px); margin: 12px auto; }
+.landing-page .balance-radar text { font-size: 13px; }
+.landing-page .chart-text-alternative { margin-top: 16px; }
+

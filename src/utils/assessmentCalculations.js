@@ -18,3 +18,15 @@ export function calculateAssessment(ratings) {
     allEqual: highestValue === lowestValue,
   }
 }
+
+// Signed differences describe chosen aspirations; they do not predict outcomes.
+export function calculateComparison(current, desired) {
+  const currentSummary = calculateAssessment(current)
+  const desiredSummary = calculateAssessment(desired)
+  return currentSummary.scores.map((dimension, index) => ({
+    ...dimension,
+    current: dimension.value,
+    desired: desiredSummary.scores[index].value,
+    difference: desiredSummary.scores[index].value - dimension.value,
+  }))
+}

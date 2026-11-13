@@ -1,0 +1,71 @@
+﻿/* Phase 5 refines the existing learning and benefit components, scoped locally. */
+.phase-five-learning,.phase-five-benefits { background: #0a0b1d; }
+.phase-five-learning .heading-section,.phase-five-benefits .heading-section { font: 600 clamp(30px,3.15vw,44px)/1.13 Georgia,'Times New Roman',serif; letter-spacing: -.025em; }
+.phase-five-learning .section-heading .body-copy,.phase-five-benefits .section-heading .body-copy { font-size: 14px; line-height: 1.85; color: #bfb8d1; }
+.phase-five-learning .learning-outcomes .section-heading { max-width: 870px; }
+.learning-outcome-note { margin-top: 18px; font-size: 11px; color: #baa6cf; }
+.landing-page .phase-five-learning .learning-outcome-list { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 18px; margin-top: 32px; }
+.landing-page .phase-five-learning .learning-outcome-list li { display: flex; flex-direction: column; gap: 0; min-width: 0; padding: 25px 22px; border: 1px solid #ba9ad044; border-radius: 19px; background: radial-gradient(ellipse at 15% 0,#8959b91a,transparent 70%),#15162d; box-shadow: inset 0 1px 0 #ffffff06; }
+.learning-outcome-top { display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 16px; margin-bottom: 25px; color: #e4c586; }
+.phase-five-learning .outcome-number { display: grid; place-items: center; width: 35px; height: 35px; border: 1px solid #d6b46a45; border-radius: 50%; padding: 0; color: #dfc18a; font-size: 12px; }
+.landing-page .phase-five-learning .learning-outcome-list .heading-card { font: 600 24px/1.3 Georgia,serif; color: #efd5a0; margin-bottom: 13px; }
+.phase-five-learning .learning-outcome-list .body-copy { font-size: 13px; line-height: 1.85; }
+.phase-five-learning .learning-outcome-top svg { width: 27px; height: 27px; }
+.phase-five-learning .learning-dimensions { margin-top: 30px; border-color: #ad91c12e; background: radial-gradient(ellipse at 100% 0,#2f697316,transparent 55%); }
+.phase-five-learning .learning-dimension-grid { margin-top: 30px; }
+.phase-five-learning .learning-dimension-card.glass-card { border-radius: 17px; background: linear-gradient(140deg,#251f3d88,#11182a); border-color: color-mix(in srgb,var(--dimension-color) 22%,transparent); padding: 24px 20px; }
+.phase-five-learning .learning-dimension-card .heading-card { font: 600 23px/1.3 Georgia,serif; }
+.phase-five-learning .learning-dimension-card > .body-copy { font-size: 12px; }
+.phase-five-learning .learning-dimension-card li { font-size: 12px; }
+.learning-demonstration-note { margin-top: 21px; font-size: 11px; border-left: 1px solid #be9ad66b; padding-left: 14px; }
+.landing-page .phase-five-learning .learning-agenda { padding-block: 55px; background: radial-gradient(ellipse at 85% 40%,#6847a320,transparent 60%),#0c0d22; }
+.phase-five-learning .learning-agenda-grid { gap: clamp(32px,6vw,75px); }
+.phase-five-learning .agenda-track { width: 2px; background: #bda16c22; }
+.phase-five-learning .agenda-progress { background: linear-gradient(#f3d493,#b98c4f); box-shadow: 0 0 13px #d6b46a44; }
+.phase-five-learning .agenda-node { width: 10px; height: 10px; box-shadow: 0 0 16px #d6b46a44; background: #28203a; }
+.phase-five-learning .agenda-module.glass-card { padding: 24px; border: 1px solid #a58cc23d; border-radius: 17px; background: linear-gradient(125deg,#2a22484d,#14172c); }
+.phase-five-learning .agenda-module .heading-card { font: 600 21px/1.3 Georgia,serif; }
+.phase-five-learning .agenda-module .body-copy { font-size: 12px; }
+.landing-page .phase-five-learning .learning-approach { padding-block: 55px; }
+.phase-five-learning .learning-approach-panel { border-color: #a389bc40; border-radius: 22px; background: radial-gradient(ellipse at 100% 100%,#41798715,transparent 70%),#15162b; }
+.phase-five-learning .learning-approach-panel li { gap: 14px; }
+.phase-five-learning .learning-approach-panel h3 { font-size: 13px; color: #e4d4b2; }
+.phase-five-learning .learning-approach-panel .body-copy { font-size: 12px; }
+.landing-page .phase-five-benefits .book-showcase { padding-block: clamp(48px,6vw,75px); border-top: 1px solid #ad91c12e; background: radial-gradient(ellipse at 50% 60%,#693d952b,transparent 65%),#090b1c; }
+.phase-five-benefits .bonus-book-grid { gap: 19px; margin-top: 35px; }
+.phase-five-benefits .bonus-book-card.glass-card { border-radius: 20px; border: 1px solid color-mix(in srgb,var(--book-color) 32%,transparent); background: radial-gradient(ellipse at 50% 15%,color-mix(in srgb,var(--book-color) 11%,transparent),transparent 65%),#13152a; padding: 26px 22px; }
+.phase-five-benefits .book-object { width: min(87%,180px); }
+.phase-five-benefits .book-front { background: radial-gradient(ellipse at 25% 12%,color-mix(in srgb,var(--book-color) 23%,transparent),transparent 65%),var(--book-cover); }
+.phase-five-benefits .book-cover-title { font: 600 clamp(18px,1.7vw,24px)/1.2 Georgia,serif; color: #f0d99c; }
+.phase-five-benefits .book-cover-label { font-size: 6px; }
+.phase-five-benefits .book-cover-symbol { opacity: 1; filter: drop-shadow(0 0 8px color-mix(in srgb,var(--book-color) 32%,transparent)); }
+.phase-five-benefits .bonus-book-card .heading-card { font: 600 23px/1.2 Georgia,serif; color: #ebd49f; margin-bottom: 12px; }
+.phase-five-benefits .bonus-book-card .body-copy { font-size: 12px; }
+.phase-five-benefits .bonus-book-card figcaption { font-size: 10px; line-height: 1.7; }
+.phase-five-benefits .bonus-condition-note { color: #c4b49b; font-size: 12px; margin-top: 19px; }
+.phase-five-benefits .book-illustration-disclaimer { font-size: 11px; }
+.landing-page .phase-five-benefits .whatsapp-learning,.landing-page .phase-five-benefits .telegram-community { padding-block: clamp(48px,6vw,75px); }
+.phase-five-benefits .whatsapp-learning { background: radial-gradient(ellipse at 90% 30%,#28675620,transparent 60%),#0b0d20; border-top: 1px solid #ad91c12e; }
+.phase-five-benefits .benefit-resource-grid { gap: clamp(32px,6vw,70px); }
+.phase-five-benefits .learning-day-plan { margin-top: 30px; }
+.phase-five-benefits .learning-day-plan .eyebrow { font-size: 9px; }
+.phase-five-benefits .learning-day-plan .small-copy { font-size: 11px; }
+.phase-five-benefits .sample-phone { border-color: #a58dbe66; background: linear-gradient(145deg,#1e293655,#111528); box-shadow: 0 25px 55px #02020f66,0 0 32px #58c3ad0c; }
+.phase-five-benefits .sample-phone-header { color: #e4d9ef; }
+.phase-five-benefits .sample-phone-header svg { color: #87cdbc; }
+.phase-five-benefits .sample-phone > .badge { font-size: 9px; }
+.phase-five-benefits .phone-sample-card h3 { color: var(--dimension-color); }
+.phase-five-benefits .phone-sample-card p { font-size: 13px; }
+.phase-five-benefits .phone-category-controls button { min-height: 44px; font-size: 10px; }
+.phase-five-benefits .telegram-community { background: radial-gradient(ellipse at 0 50%,#1b677a1c,transparent 60%),#090d20; }
+.phase-five-benefits .community-concept.glass-card { border-radius: 22px; border-color: #60c9d83d; background: radial-gradient(ellipse at 50% 20%,#366d8740,transparent 75%),#13182c; }
+.phase-five-benefits .community-symbol { box-shadow: 0 0 45px #38ddf519,inset 0 0 25px #38ddf50a; }
+.phase-five-benefits .community-concept .heading-card { font-family: Georgia,serif; font-size: 27px; }
+.learning-registration-bridge { padding-block: 30px clamp(48px,6vw,75px); background: #090c1e; }
+.learning-registration-panel { display: grid; justify-items: center; gap: 26px; padding: clamp(28px,5vw,60px); text-align: center; border: 1px solid #ac87c55c; border-radius: 24px; background: radial-gradient(ellipse at 50% 0,#7956a328,transparent 70%),linear-gradient(120deg,#30234255,#12172a); }
+.learning-registration-panel > svg { color: #e3c687; }
+.learning-registration-panel .button { border-radius: 100px; padding-inline: 28px; min-height: 50px; }
+.learning-registration-status { font-size: 11px; color: #c1b4cd; }
+@media(max-width:1099px) { .landing-page .phase-five-learning .learning-outcome-list,.phase-five-learning .learning-dimension-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .phase-five-benefits .bonus-book-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:767px) { .landing-page .phase-five-learning .learning-outcome-list,.phase-five-learning .learning-dimension-grid,.phase-five-benefits .bonus-book-grid { grid-template-columns: 1fr; } .phase-five-learning .learning-outcome-list .heading-card { font-size: 25px; } .phase-five-learning .learning-dimension-card.glass-card { padding: 25px; } .phase-five-learning .heading-section,.phase-five-benefits .heading-section { font-size: clamp(28px,7.8vw,36px); } .phase-five-learning .section-heading .body-copy,.phase-five-benefits .section-heading .body-copy { font-size: 13px; } .phase-five-learning .agenda-module.glass-card { padding: 21px; } .phase-five-learning .agenda-module .heading-card { font-size: 20px; } .phase-five-benefits .bonus-book-card.glass-card { padding: 30px; } .phase-five-benefits .book-object { width: min(72%,190px); } .phase-five-benefits .book-cover-title { font-size: 24px; } .phase-five-benefits .sample-phone { max-width: 100%; padding-inline: 20px; } .phase-five-benefits .community-concept.glass-card { padding: 25px 20px; } .phase-five-benefits .community-floating-label { font-size: 9px; } .learning-registration-panel { padding: 30px 20px; } .learning-registration-panel .button { width: 100%; } }
+@media(prefers-reduced-motion:reduce) { .phase-five-learning *, .phase-five-benefits *, .phase-five-benefits *::before,.phase-five-benefits *::after { animation: none !important; transition: none !important; } .phase-five-benefits .bonus-book-card:hover .book-object { transform: perspective(900px) rotateY(-17deg) rotateX(5deg) !important; } .phase-five-learning .agenda-progress { transform: none !important; } }

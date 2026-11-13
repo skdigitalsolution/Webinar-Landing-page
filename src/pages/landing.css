@@ -1,7 +1,7 @@
 .landing-page { --landing-space: clamp(3rem, 6vw, 5rem); }
 html { scroll-padding-top: 96px; }
 .landing-target { scroll-margin-top: 0; }
-.landing-page #assessment-form, .landing-page #assessment-results, .landing-page #registration-demo-form, .landing-page #registration-summary { scroll-margin-top: 0; }
+.landing-page #assessment-form, .landing-page #assessment-results { scroll-margin-top: 0; }
 .landing-target:focus { outline: none; }
 .landing-section { padding-block: var(--landing-space); border-top: 1px solid var(--border-subtle); }
 .landing-section > .container-shell > .section-heading { margin-bottom: var(--space-8); }
@@ -59,8 +59,6 @@ html { scroll-padding-top: 96px; }
 .landing-page .whatsapp-learning { padding-bottom: var(--space-12); }
 .landing-page .telegram-community { padding-block: var(--space-12); }
 .landing-page .benefits-overview { padding-block: var(--space-12); }
-.landing-page .registration-workspace-section { padding-bottom: 0; }
-.landing-page #register .registration-demo-banner { margin-block: var(--space-6) var(--space-8); }
 .landing-page #faq { padding-bottom: 0; }
 .landing-page #faq .registration-faq-section { padding-bottom: var(--space-12); }
 .landing-final-cta { padding-block: 0 var(--landing-space); }

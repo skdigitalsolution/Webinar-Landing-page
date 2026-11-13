@@ -1,0 +1,119 @@
+{
+  "order": [
+    "home",
+    "problems",
+    "mentor-introduction",
+    "mentor",
+    "circle-of-life"
+  ],
+  "uniqueAnchors": true,
+  "hero": {
+    "title": "Discover How AI Can Help You Build a Better Life.",
+    "scene": "ready"
+  },
+  "problemCards": [
+    {
+      "title": "Health",
+      "question": "Finding it difficult to maintain consistent healthy routines?",
+      "opacity": 1
+    },
+    {
+      "title": "Wealth",
+      "question": "Feeling uncertain about your financial priorities or direction?",
+      "opacity": 1
+    },
+    {
+      "title": "Relationships",
+      "question": "Struggling to make meaningful time for important relationships?",
+      "opacity": 1
+    },
+    {
+      "title": "Spiritual Bliss",
+      "question": "Feeling mentally overwhelmed or disconnected from your personal priorities?",
+      "opacity": 1
+    }
+  ],
+  "video": {
+    "src": "http://127.0.0.1:5176/Webinar-Landing-page/assets/webinar/3.mp4",
+    "duration": 29.024989,
+    "controls": true,
+    "preload": "metadata",
+    "playsInline": true,
+    "noAutoplay": true,
+    "time": 0.160918,
+    "playing": true,
+    "pauseWorks": true
+  },
+  "exclusivePlayback": true,
+  "heroModalPreserved": true,
+  "mentor": {
+    "credentials": [
+      "Homoeopathy Doctor",
+      "Life Coach",
+      "Author of Four Books"
+    ],
+    "highlights": 3,
+    "image": {
+      "src": "http://127.0.0.1:5176/Webinar-Landing-page/assets/webinar/4.jpeg",
+      "width": 2047,
+      "height": 2560,
+      "fit": "contain"
+    },
+    "oldProfile": false
+  },
+  "bridge": true,
+  "registration": true,
+  "reducedMotion": true,
+  "layouts": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "problemColumns": 4,
+      "mentorColumns": 2
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "problemColumns": 2,
+      "mentorColumns": 2
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "problemColumns": 2,
+      "mentorColumns": 2
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "problemColumns": 1,
+      "mentorColumns": 1
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "problemColumns": 1,
+      "mentorColumns": 1
+    }
+  ],
+  "mobileVideo": true,
+  "assets": [
+    {
+      "file": "1.jpeg",
+      "status": 200
+    },
+    {
+      "file": "2.jpeg",
+      "status": 200
+    },
+    {
+      "file": "3.mp4",
+      "status": 200
+    },
+    {
+      "file": "4.jpeg",
+      "status": 200
+    }
+  ],
+  "errors": []
+}

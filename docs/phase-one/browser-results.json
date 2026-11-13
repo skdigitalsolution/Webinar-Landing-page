@@ -1,0 +1,45 @@
+{
+  "desktop": {
+    "title": "Circle of Life Webinar | VAILYF AI",
+    "overflow": false,
+    "scene": "ready",
+    "heading": "Discover How AI Can Help You Build a Better Life."
+  },
+  "video": {
+    "src": "http://127.0.0.1:5173/Webinar-Landing-page/assets/webinar/3.mp4",
+    "duration": 29.024989,
+    "time": 0.766259,
+    "paused": false,
+    "readyState": 2,
+    "muted": true
+  },
+  "assets": [
+    {
+      "file": "1.jpeg",
+      "status": 200
+    },
+    {
+      "file": "2.jpeg",
+      "status": 200
+    },
+    {
+      "file": "3.mp4",
+      "status": 200
+    },
+    {
+      "file": "4.jpeg",
+      "status": 200
+    }
+  ],
+  "registration": {
+    "hash": "#register",
+    "target": true
+  },
+  "mobile": {
+    "overflow": false,
+    "menu": "true",
+    "scene": "ready"
+  },
+  "reduced": "static",
+  "errors": []
+}
